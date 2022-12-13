@@ -5,12 +5,10 @@
 
 .full-container {
     margin: auto;
-    max-width: 1300px;
 }
 /*HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
 .header-container {
     display: flex;
-    
     width: 100%;
     background-image: url("../img/background-heropage.jpg") ;
     background-position: center top;
