@@ -2,7 +2,6 @@
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
 }
-
 .full-container {
     margin: auto;
 }
@@ -15,13 +14,11 @@
     background-repeat: no-repeat;
     background-size:cover;
 }
-
 .logo-openskills {
     width: 100px;
     height: 120px;
     margin-left: 50px;
 }
-
 .title-openskills {
     color: #08ACD4;
     width: 300px;
@@ -29,11 +26,6 @@
     justify-content: center;
     align-items: center;
 }
-
-.nav-heropage a {
-    margin: 15px;
-}
-
 .nav-heropage {
     display: flex;
     flex-wrap: wrap;
@@ -42,34 +34,36 @@
     width: 100%;
     margin-right: 50px;
 }
-
 .nav-heropage a {
     text-decoration: none;
     color: initial;
     border: 10px;
+    margin: 15px;
+    font-weight: 600;
 }
-
 .nav-heropage a:hover {
     border-width: 1px;
     color: #08ACD4;
     border-bottom: solid;
 }
-
-/* MAIN  MAIN  MAIN  MAIN  MAIN  MAIN  MAIN  MAIN  MAIN  MAIN  MAIN  MAIN  MAIN  MAIN  MAIN  MAIN  MAIN */
-
+/* HERO PAGE HERO PAGE HERO PAGE HERO PAGE HERO PAGE HERO PAGE HERO PAGE HERO PAGE HERO PAGE HERO PAGE HERO PAGE HERO PAGE HERO PAGE */
+.main-container {
+    background-image: url("../img/wave-background.png");
+    background-size:cover;
+}
 .hero-container {
     background-image: url("../img/background-heropage.jpg") ;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 600px;
     border-radius: 0px 0px 30px 30px;
     box-shadow:  0px 5px 0px grey; ;
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
     padding-top: 60px;
+    padding-bottom: 100px;
 }
 .left-hero-container {
     display: flex;
@@ -117,12 +111,12 @@
   }
 .first-line {
     position:absolute;
-    margin-top:70px;
+    margin-top:-30px;
     margin-left: 150px;
 }
 .second-line {
     position: absolute;
-    margin-top:120px;
+    margin-top:30px;
     margin-left: 50px;
 }
 .emoji-3 {
@@ -135,16 +129,121 @@
 }
 /* SOCIAL PROOFSSOCIAL PROOFSSOCIAL PROOFSSOCIAL PROOFSSOCIAL PROOFSSOCIAL PROOFSSOCIAL PROOFSSOCIAL PROOFS */
 .social-proof {
-    width:1000px;
-    height: 200px;
+    border-radius: 30px 30px 30px 30px;
     background-color: #FAE8AA;
-    z-index:1;
-    position:absolute;
-    margin-left:150px;
-    margin-top:-50px;
+    margin-top:-30px;
     display:flex;
     flex-direction: column;
+    margin-right: 150px;
+    margin-left: 150px;
+   
 }
 .numbers-social-proof {
     display:flex;
+    margin-top:20px;
+    justify-content: center;
 }
+.numbers-social-proof h1{
+    font-weight: bold;
+    font-size: 48px;
+    margin: 25px;
+}
+.numbers-social-proof p{
+    font-weight: bold;
+    text-align: center;
+}
+.numbers-social-proof strong {
+    color : #FFAC33;
+}
+.carousel-social-proof {
+    margin:auto;
+    padding-bottom:30px;
+}
+.carousel-social-proof img{
+    width:100px;
+    height: 70px;
+    margin: 15px;
+}
+
+/* MAIN CONTENT MAIN CONTENT MAIN CONTENT MAIN CONTENT MAIN CONTENT MAIN CONTENT MAIN CONTENT MAIN CONTENT MAIN CONTENT*/
+.main-content {
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+}
+.main-content strong.yellow{ 
+    background-color: #FFDC5D;
+}
+.main-content strong.blue{ 
+    background-color: #08ACD4;
+}
+.main-content strong.red{ 
+    background-color: #E31616;
+}
+.first-content {
+    padding-top:50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.first-content img{
+    width:240px;
+    height: 210px;
+}
+.bubble-first-content p {
+    background-color: rgb(233, 224, 224);
+    padding:15px;
+    border-radius: 30px 30px 30px 0px;
+    font-weight: 800;
+}
+.second-content {
+    padding-top:50px;
+    padding-bottom:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-content h2 {
+   text-align: center;
+}
+.second-content p {
+    text-align: center;
+ }
+.second-content button{
+    margin-top:20px;
+ }
+.third-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bubble-third-content p {
+    background-color: rgb(233, 224, 224);
+    padding:15px;
+    border-radius: 30px 30px 0px 30px;
+    font-weight: 800;
+}
+.third-content img {
+    width:240px;
+    height: 240px;
+ }
+ .third-content li {
+    margin: 10px;
+ }
+ .fourth-content {
+    padding-top:50px;
+    padding-bottom:50px;
+ }
+ .title-fourth {
+    text-align: center;
+ }
+ .blue-color{
+    color:#08ACD4;
+ }
+.fifth-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
