@@ -13,7 +13,7 @@
 }
 .logo-openskills {
     width: 100px;
-    height: 120px;
+    height: 100px;
     margin-left: 50px;
 }
 .title-openskills {
@@ -44,6 +44,25 @@
     border-bottom: solid;
 }
 /* MAIN CONTAINERMAIN CONTAINERMAIN CONTAINERMAIN CONTAINERMAIN CONTAINERMAIN CONTAINERMAIN CONTAINERMAIN CONTAINER*/
+.main-container{
+    background-image: url("../img/wave-background.png");
+    background-size:cover;
+}
+.button-lead {
+    background-size: 200% auto;
+    margin: 10px;
+    padding: 15px 45px;
+    color: white; 
+    border-radius: 20px;
+    border-width: 0px;
+    background-image: linear-gradient(to right, #08ACD4 0%, #FFDC5D  51%, #08ACD4  100%);
+}
+.button-lead:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
 .titleh1-leadform {
     text-align: center;
 }
@@ -53,6 +72,7 @@
 }
 .description-container {
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .description-container li{
@@ -61,6 +81,7 @@
 .candidat-container {
     background-color:#FFDC5D;
     display:flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -74,6 +95,7 @@
 .professionnel-container {
     background-color:#08ACD4;
     display:flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     padding:30px;
@@ -86,11 +108,125 @@
 }
 .form-container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     padding:50px;
 }
 .form-container p{
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
     background-color: white;
+    padding:10px;
+    margin-top:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  7px 10px 1px #08ACD4;
 }
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+label {
+    margin:10px;
+  }
+input[type=text]{
+    border-width: 0px;
+    border-color:#F0FAEB;
+    width:100px;
+    height: 25px;
+  }
+  input[type=email]{
+    border-width: 0px;
+    border-color:#F0FAEB;
+    width:200px;
+    height: 25px;
+  }
+  input[type=tel]{
+    border-width: 0px;
+    border-color:#F0FAEB;
+    width:130px;
+    height: 25px;
+  }
+  input[type=date]{
+    border-width: 0px;
+    border-color:#F0FAEB;
+    width:150px;
+    height: 25px;
+  }
+  input[type=submit]{
+    background-size: 200% auto;
+    margin: 10px;
+    margin-top:20px;
+    padding: 15px 45px;
+    color: white; 
+    border-radius: 20px;
+    border-width: 0px;
+    background-image: linear-gradient(to right, #08ACD4 0%, #FFDC5D  51%, #08ACD4  100%);
+}
+input[type=submit]:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+/* FOOTER CONTAINER FOOTER CONTAINER FOOTER CONTAINER FOOTER CONTAINER FOOTER CONTAINER FOOTER CONTAINER FOOTER CONTAINER FOOTER CONTAINER*/ 
+.footer-container {
+    display: flex;
+    justify-content:space-evenly;
+    padding:30px;
+    background-image: url("../img/background-footer.png");
+    border-radius: 30px 30px 0px 0px;
+    margin-top:0px;
+    box-shadow:  1px 0px 10px 5px grey; ;
+    font-size: 12px;
+ }
+ .footer-col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .footer-col1 h3{
+    color: #08ACD4;
+ }
+ .instagram-logo {
+    width: 25px;
+    height: 25px;
+    margin-top:10px;
+ }
+ .linkedin-logo {
+    width: 25px;
+    height: 25px;
+ }
+ .footer-col2 {
+    display: flex;
+    flex-direction: column;
+ }
+ .footer-col2 img {
+    width: 100px;
+    height: 120px;
+ }
+ .footer-col3 {
+    display: flex;
+    flex-direction: column;
+ }
+ .footer-col3 a{
+    text-decoration: none;
+    color: initial;
+    margin-top: 8px;
+ }
+ .footer-col4 {
+    display: flex;
+    flex-direction: column;
+ }
+ .footer-col4 a{
+    text-decoration: none;
+    color: initial;
+    margin-top: 8px;
+ }
+ .footer-col5 {
+    display: flex;
+    flex-direction: column;
+ }
