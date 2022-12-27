@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+.full-container {
+    margin: auto;
+    background-color: #F0FAEB;
+}
+/*HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
+.header-container {
+    display: flex;
+    width: 100%;
+}
+.logo-openskills {
+    width: 100px;
+    height: 120px;
+    margin-left: 50px;
+}
+.title-openskills {
+    color: #08ACD4;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-heropage {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    margin-right: 50px;
+}
+.nav-heropage a {
+    text-decoration: none;
+    color: initial;
+    border: 10px;
+    margin: 15px;
+    font-weight: 600;
+}
+.nav-heropage a:hover {
+    border-width: 1px;
+    color: #08ACD4;
+    border-bottom: solid;
+}
+/* MAIN CONTAINERMAIN CONTAINERMAIN CONTAINERMAIN CONTAINERMAIN CONTAINERMAIN CONTAINERMAIN CONTAINERMAIN CONTAINER*/
+.titleh1-leadform {
+    text-align: center;
+}
+.p-leadform {
+    text-align: center;
+    padding-bottom:30px;
+}
+.description-container {
+    display:flex;
+    justify-content: center;
+}
+.description-container li{
+    margin-top:13px;
+}
+.candidat-container {
+    background-color:#FFDC5D;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+    border-radius: 30px 30px 30px 30px;
+}
+.candidat-container img{
+    width:30px;
+    height: 30px;
+}
+.professionnel-container {
+    background-color:#08ACD4;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px;
+    margin-left:70px;
+    border-radius: 30px 30px 30px 30px;
+}
+.professionnel-container img{
+    width:30px;
+    height: 30px;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:50px;
+}
+.form-container p{
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+}
