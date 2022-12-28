@@ -50,6 +50,7 @@
  }
  .title-recrutement-h1 {
     text-align: center;
+    margin-top:50px;
  }
  .title-recrutement-h1 img {
     width:25px;
@@ -81,6 +82,100 @@
  .main-container strong.red{ 
     background-color: #E31616;
  }
+ .first-content{
+   display:flex;
+   justify-content: center;
+   margin-top:50px;
+ }
+ .sophie-img-bird{
+   width: 200px;
+   height: 200px;
+ }
+ .text-content img{
+   width:25px;
+   height: 25px;
+   margin-bottom:-5px;
+   margin-left:5px;
+ }
+ .second-content h1{
+   text-align: center;
+   margin-top:70px;
+   margin-bottom:40px;
+ }
+ .second-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+.keyword-container{
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-top:50px;
+}
+.keyword-container img{
+   width:25px;
+}
+.keyword-container p{
+   text-align: center;
+   font-size: 13px;
+}
+.collectif-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left:50px;
+   padding-top:20px;
+   padding-left:20px;
+   padding-right:20px;
+   padding-bottom:50px;
+   border-radius: 20px 20px 20px 20px;
+   background-color: #FFDC5D;
+}
+.softskills-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left:50px;
+   padding-top:20px;
+   padding-left:20px;
+   padding-right:20px;
+   padding-bottom:50px;
+   background-color:#08ACD4;
+   border-radius: 20px 20px 20px 20px;
+}
+.valeur-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left:50px;
+   padding-top:20px;
+   padding-left:20px;
+   padding-right:20px;
+   padding-bottom:50px;
+   border-radius: 20px 20px 20px 20px;
+   background-color: #FFDC5D;
+}
+.third-content{
+   display:flex;
+   justify-content: center;
+   margin-top:70px;
+   padding-bottom:150px;
+}
+.chloe-img{
+   width:200px;
+   height: 200px;
+}
+.guys-img{
+   width:280px;
+   height: 150px;
+   margin-top:50px;
+}
+.sophie-italia-img{
+   width:200px;
+   height: 200px;
+}
 /* FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT */
 .footer-container {
     display: flex;
