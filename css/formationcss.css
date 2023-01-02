@@ -46,15 +46,7 @@
 /* MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT */
 .main-container{
     background-image: url("../img/wave-b.png");
-    background-size:auto;
-    
- }
- .title-recrutement-h1 {
-    text-align: center;
-    margin-top:50px;
- }
- .title-recrutement-h1 img {
-    width:25px;
+    background-size:auto;  
  }
  .button-lead {
     background-size: 200% auto;
@@ -83,150 +75,72 @@
  .main-container strong.red{ 
     background-color: #E31616;
  }
- .first-content{
-   display:flex;
-   justify-content: center;
-   margin-top:50px;
+ .first-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
  }
- .sophie-img-bird{
-   width: 200px;
-   height: 200px;
+ .graph-img{
+    width: 30px;
+    height: 30px;
  }
- .text-content img{
-   width:25px;
-   height: 25px;
-   margin-bottom:-5px;
-   margin-left:5px;
+ .img-marine-smile {
+    display: flex;
+    margin-top:50px;
+    align-items: flex-start;
  }
- .second-content h1{
-   text-align: center;
-   margin-top:70px;
-   margin-bottom:40px;
+ .img-marine-smile img{
+    width: 200px;
+    height: 200px;
  }
- .second-content {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
- }
-.keyword-container{
-   display:flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   padding-top:50px;
-}
-.keyword-container img{
-   width:25px;
-}
-.keyword-container p{
-   text-align: center;
-   font-size: 13px;
-}
-.collectif-container{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   margin-left:50px;
-   padding-top:20px;
-   padding-left:20px;
-   padding-right:20px;
-   padding-bottom:50px;
-   border-radius: 20px 20px 20px 20px;
-   background-color: #FFDC5D;
-}
-.softskills-container{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   margin-left:50px;
-   padding-top:20px;
-   padding-left:20px;
-   padding-right:20px;
-   padding-bottom:50px;
-   background-color:#08ACD4;
-   border-radius: 20px 20px 20px 20px;
-}
-.valeur-container{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   margin-left:50px;
-   padding-top:20px;
-   padding-left:20px;
-   padding-right:20px;
-   padding-bottom:50px;
-   border-radius: 20px 20px 20px 20px;
-   background-color: #FFDC5D;
-}
-.third-content{
-   display:flex;
-   justify-content: center;
-   margin-top:70px;
-   padding-bottom:100px;
-}
-.chloe-img{
-   width:200px;
-   height: 200px;
-}
-.midle-container {
-   display: flex;
-   flex-direction: column ;
-   align-items: center;
-}
-.midle-container p{
-   background-color: rgb(233, 224, 224);
+ .img-marine-smile p{
+    background-color: rgb(233, 224, 224);
     padding:15px;
     border-radius: 30px 30px 30px 0px;
     font-weight: 800;
-}
-.midle-container img{
-   margin-top:-10px; 
-}
-.guys-img{
-   width:280px;
-   height: 150px;
-   margin-top:50px;
-}
-.sophie-italia-img{
-   width:200px;
-   height: 200px;
-}
-.right-container {
-   margin-top:70px;
-   display:flex;
-   flex-direction: column;
-   align-items: flex-start;
-}
-.right-container p{
-   background-color: rgb(233, 224, 224);
+ }
+ .second-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+ }
+ .txt-second-content{
+    text-align: center;
+ }
+ .schema-bubble-container {
+    display: flex;
+    align-items: flex-start;
+    margin-top:50px;
+ }
+ .schema-bubble-container img{
+    width:300px;
+    height: 280px;
+    margin-top:50px;
+ }
+ .schema-bubble-container p{
+    background-color: rgb(233, 224, 224);
     padding:15px;
     border-radius: 30px 30px 30px 0px;
     font-weight: 800;
-}
-.right-container img{
-   margin-top:-25px;
-   margin-left:-60px;
-}
-.fourth-content {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   padding-bottom: 200px;
-}
-.leadform-button{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 70px;
-}
-.ebookpage-button{
-   margin-top:50px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 70px;
-}
+ }
+ .third-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+    padding-bottom:150px;
+ }
+ .conseil-line{
+    display: flex;
+    height: 70px;
+    align-items: center;
+ }
 /* FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT */
 .footer-container {
     display: flex;
