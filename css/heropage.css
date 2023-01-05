@@ -11,14 +11,10 @@
     display: flex;
     width: 100%;
     background-image: linear-gradient(to right, #bee6f0fd 0%, #f7eabb  51%,#bee6f0fd  100%);
-    /*background-image: url("../img/background-heropage.jpg") ;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size:cover;*/
 }
 .logo-openskills {
     width: 100px;
-    height: 100px;
+    height: 110px;
     margin-left: 50px;
 }
 .title-openskills {
@@ -126,6 +122,7 @@
     color: white; 
     border-radius: 20px;
     border-width: 0px;
+    box-shadow:  2px 2px 1px grey;
     background-image: linear-gradient(to right, #08ACD4 0%, #FFDC5D  51%, #08ACD4  100%);
 }
 .button-lead:hover {

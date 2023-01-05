@@ -13,7 +13,7 @@
 }
 .logo-openskills {
     width: 100px;
-    height: 100px;
+    height: 110px;
     margin-left: 50px;
 }
 .title-openskills {
@@ -63,6 +63,7 @@
     color: white; 
     border-radius: 20px;
     border-width: 0px;
+    box-shadow:  2px 2px 1px grey;
     background-image: linear-gradient(to right, #08ACD4 0%, #FFDC5D  51%, #08ACD4  100%);
  }
  .button-lead:hover {
