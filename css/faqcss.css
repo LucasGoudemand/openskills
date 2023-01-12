@@ -221,3 +221,100 @@
     display: flex;
     flex-direction: column;
  }
+ @media all and (max-width: 768px) {
+    .header-container{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .logo-openskills{
+      margin-left:0px;
+    }
+    .nav-heropage{
+      flex-direction: column;
+      margin-right: 0px;
+    }
+    .first-content{
+      width:100%;
+      padding-bottom: 80px;
+      padding-right: 10px;
+    }
+    .first-content img{
+      width:200px;
+      height: 100px;
+    }
+    .first-content p{
+        text-align: center;
+        height: 100%;
+      }
+    .second-content{
+      margin-right: 10px;
+        margin-left: 10px;
+    }
+    .faqbubble{
+        width: 100%;
+        padding-bottom: 5px;
+    }
+    .first-faq:hover {
+        height: 280px;
+      }
+      .second-faq:hover {
+        height: 180px;
+      }
+      .third-faq:hover {
+        height: 330px;
+      }
+      .fourth-faq:hover {
+        height: 290px;
+      }
+      .fifth-faq:hover {
+        height: 450px;
+      }
+      .extra-txt-faq1{
+        text-align: center;
+        margin-left:10px;
+        margin-right:10px;
+      }
+      .extra-txt-faq2{
+        text-align: center;
+        margin-left:10px;
+        margin-right:10px;
+      }
+      .extra-txt-faq3{
+        text-align: center;
+        margin-left:10px;
+        margin-right:10px;
+      }
+      .extra-txt-faq4{
+        text-align: center;
+        margin-left:10px;
+        margin-right:10px;
+      }
+      .extra-txt-faq5{
+        text-align: center;
+        margin-left:10px;
+        margin-right:10px;
+      }
+      .second-faq{
+        height: 70px;
+      }
+      .third-faq{
+        height: 70px;
+      }
+      .fifth-faq{
+        height: 80px;
+      }
+      .conseil-line{
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+      }
+    .footer-container{
+      width:100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+  }

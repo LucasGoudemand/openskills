@@ -41,29 +41,6 @@ function countdown3() {
 setTimeout(countdown3, delta);
 
 
-//BANDEAU SLIDE AUTOMATIQUE SOCIAL PROOF
-
-
-var images = document.querySelectorAll('.carousel-social-proof img');
-var currentImage = 0;
-var bannerWidth = document.querySelector('.carousel-social-proof').offsetWidth;
-var interval = setInterval(nextImage,2000);
-
-function nextImage() {
-  images[currentImage].style.left = -bannerWidth + 'px';
-  currentImage = (currentImage+1)%images.length;
-  images[currentImage].style.left = '0px';
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
