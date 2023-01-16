@@ -329,10 +329,10 @@
    .logo-openskills{
      margin-left:0px;
    }
-   .nav-heropage{
-     flex-direction: column;
-     margin-right: 0px;
-   }
+   .nav-heropage {
+      justify-content: center;
+      margin-right: 0px;
+    }
    .footer-container{
       width:100%;
       flex-direction: column;
@@ -457,6 +457,155 @@
       justify-content: center;
    }
    .conseil-line{
+      display:flex;
+      flex-direction: column;
+   }
+   .conseil-line h1{
+      text-align: center;
+   }
+   .conseil-line button{
+      margin-left:70px;
+      margin-right:70px;
+   }
+ }
+ @media only screen and (min-width: 768px) and (max-width: 1200px) {
+   .header-container{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .logo-openskills{
+      margin-left:0px;
+    }
+    .nav-heropage {
+       justify-content: center;
+       margin-right: 0px;
+     }
+    .footer-container{
+       width:100%;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+     }
+     .first-content h1{
+       text-align: center;
+     }
+     .three-componant{
+       flex-wrap: wrap;
+     }
+     .left-container{
+       text-align: center;
+     }
+     .midle-container img{
+       height: 200px;
+       rotate:76deg;
+     }
+     .midle-container {
+       display: none;
+    }
+    .right-container {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .right-container img{
+       width: 250px;
+       height: 250px;
+       margin-left:0px;
+    }
+    .right-container p{
+       margin-top:30px;
+    }
+     .right-container p{
+       text-align: center;
+       padding-left:10px;
+       padding-right:10px;
+     }
+     .second-three-componant{
+       flex-wrap: wrap;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+     }
+     .second-left-container{
+       margin-right:0px;
+     }
+     .second-left-container img{
+       width: 300px;
+     }
+     .bubble-1 {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left:110px;
+       margin-top:-360px;
+       width:80px;
+       height:80px;
+       position: absolute;
+       font-size: 12px;
+    }
+    .bubble2 {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left:-30px;
+       margin-top:-250px;
+       width:80px;
+       height:80px;
+       position: absolute;
+       font-size: 12px;
+    }
+    .bubble3 {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left:250px;
+       margin-top:-250px;
+       width:80px;
+       height:80px;
+       position: absolute;
+       font-size: 12px;
+    }
+    .bubble4 {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left:210px;
+       margin-top:-100px;
+       width:80px;
+       height:80px;;
+       position: absolute;
+       font-size: 12px;
+    }
+    .bubble5 {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left:0px;
+       margin-top:-100px;
+       width:80px;
+       height:80px;
+       position: absolute;
+       font-size: 12px;
+    }
+    .bubble1-second-middle-container{
+       margin-left:10px;
+       margin-right:10px;
+    }
+    .bubble2-second-middle-container{
+       margin-right:10px;
+       margin-left:0px;
+    }
+    .second-right-container{
+       margin-top:0px;
+    }
+    .third-content{
+       display:flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+    .conseil-line{
       display:flex;
       flex-direction: column;
    }

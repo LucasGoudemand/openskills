@@ -146,11 +146,11 @@
   transition: all 0.5s;
 }
 .collectif-container:hover {
-   border: 1px solid black;
-   transform: scale(1.05);
+  border: 1px solid black;
+  transform: scale(1.05);
 }
 .collectif-container:active {
-   transform: scale(0.95) rotateZ(1.7deg);
+  transform: scale(0.95) rotateZ(1.7deg);
 }
 .softskills-container {
   display: flex;
@@ -170,11 +170,11 @@
   transition: all 0.5s;
 }
 .softskills-container:hover {
-   border: 1px solid black;
-   transform: scale(1.05);
+  border: 1px solid black;
+  transform: scale(1.05);
 }
 .softskills-container:active {
-   transform: scale(0.95) rotateZ(1.7deg);
+  transform: scale(0.95) rotateZ(1.7deg);
 }
 .valeur-container {
   display: flex;
@@ -194,11 +194,11 @@
   transition: all 0.5s;
 }
 .valeur-container:hover {
-   border: 1px solid black;
-   transform: scale(1.05);
+  border: 1px solid black;
+  transform: scale(1.05);
 }
 .valeur-container:active {
-   transform: scale(0.95) rotateZ(1.7deg);
+  transform: scale(0.95) rotateZ(1.7deg);
 }
 .third-content {
   display: flex;
@@ -337,7 +337,7 @@
     margin-left: 0px;
   }
   .nav-heropage {
-    flex-direction: column;
+    justify-content: center;
     margin-right: 0px;
   }
   .first-content {
@@ -369,7 +369,7 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-  .midle-container p{
+  .midle-container p {
     border-radius: 30px 30px 30px 30px;
   }
   .right-container img {
@@ -380,6 +380,52 @@
   }
   .fourth-content {
     flex-wrap: wrap;
+  }
+  .leadform-button {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .ebookpage-button {
+    flex-wrap: wrap;
+    margin-top: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .footer-container {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .hero-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .logo-openskills {
+    margin-left: 0px;
+  }
+  .keyword-container{
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  .collectif-container{
+    margin-bottom: 30px;
+  }
+  .softskills-container{
+    margin-bottom: 30px;
+  }
+  .nav-heropage {
+    justify-content: center;
+    margin-right: 0px;
   }
   .leadform-button {
     flex-wrap: wrap;

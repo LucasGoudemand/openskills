@@ -48,12 +48,18 @@
 }
 .second-content{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     margin-top:100px;
+}
+.partenaire-container{
+    width:100%;
+    text-align: center;
 }
 .card {
     width: 280px;
-    height: 150px;
+    height: 163px;
     padding: 0.5rem;
     background: rgba(198, 198, 198, 0.34);
     border-radius: 8px;
@@ -66,6 +72,7 @@
     overflow: hidden;
     color: black;
     margin-right: 50px;
+    margin-top: 50px;
   }
   
 .card:hover {
@@ -248,3 +255,134 @@
     display: flex;
     flex-direction: column;
  }
+
+ 
+@media all and (max-width: 768px) {
+    .header-container {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .logo-openskills {
+      margin-left: 0px;
+    }
+    .nav-heropage {
+      justify-content: center;
+      margin-right: 0px;
+    }
+    .main-container {
+      background-size: auto;
+    }
+    .first-content {
+      width: 100%;
+      text-align: center;
+      align-items: center;
+      flex-direction: column ;
+    }
+    .img-marine-seated{
+        width:300px;
+        height: 200px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    .txt-history{
+        margin-left:0px;
+        padding-left:10px;
+        padding-right: 10px;
+    }
+    .second-content{
+        margin-top:30px;
+    }
+    .third-content{
+        flex-direction: column;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top:30px;
+    }
+    .third-content img{
+        display: none;
+    }
+    .card {
+        margin-right: 0px;
+        margin-top: 50px;
+      }
+    .conseil-line{
+        flex-wrap: wrap;
+        margin-top: 0px;
+        text-align: center;
+        padding-right:10px;
+        padding-left:10px;
+        justify-content: center;
+      }
+    .footer-container {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .header-container {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .logo-openskills {
+        margin-left: 0px;
+      }
+      .nav-heropage {
+        justify-content: center;
+        margin-right: 0px;
+      }
+      .main-container {
+        background-size: auto;
+      }
+      .first-content {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        flex-direction: column ;
+      }
+      .img-marine-seated{
+          width:300px;
+          height: 200px;
+          border-radius: 20px 20px 20px 20px;
+      }
+      .txt-history{
+          margin-left:0px;
+          padding-left:10px;
+          padding-right: 10px;
+      }
+      .second-content{
+          margin-top:30px;
+      }
+      .third-content{
+          flex-direction: column;
+          text-align: center;
+          padding-left: 10px;
+          padding-right: 10px;
+          margin-top:30px;
+      }
+      .third-content img{
+          display: none;
+      }
+      .card {
+          margin-right: 0px;
+          margin-top: 50px;
+          margin:30px;
+        }
+      .conseil-line{
+          flex-wrap: wrap;
+          margin-top: 0px;
+          text-align: center;
+          padding-right:10px;
+          padding-left:10px;
+          justify-content: center;
+        }
+      .footer-container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+  }

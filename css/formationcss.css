@@ -209,10 +209,10 @@
    .logo-openskills{
      margin-left:0px;
    }
-   .nav-heropage{
-     flex-direction: column;
-     margin-right: 0px;
-   }
+   .nav-heropage {
+      justify-content: center;
+      margin-right: 0px;
+    }
    .first-content{
       width:100%;
       text-align: center;
@@ -264,4 +264,68 @@
      text-align: center;
    }
    
+ }
+ @media only screen and (min-width: 768px) and (max-width: 1200px) {
+   .header-container{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .logo-openskills{
+      margin-left:0px;
+    }
+    .nav-heropage {
+       justify-content: center;
+       margin-right: 0px;
+     }
+    .first-content{
+       width:100%;
+       text-align: center;
+       padding-right:10px;
+       padding-left:10px;
+     }
+     .second-content{
+       width:100%;
+     }
+     .txt-second-content{
+       text-align: center;
+       padding-right:10px;
+       padding-left:10px;
+     }
+     .third-content{
+       width:100%;
+     }
+     .schema-bubble-container{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+     }
+     .schema-bubble-container img{
+       margin-top:0px;
+     }
+     .schema-bubble-container p{
+       margin-right:10px;
+       margin-left:10px;
+     }
+     .conseil-line{
+       flex-wrap: wrap;
+       margin-top: 0px;
+       text-align: center;
+       padding-right:10px;
+       padding-left:10px;
+       justify-content: center;
+     }
+     .third-content h2{
+       margin-top: 200px;
+       text-align: center;
+       padding-right:10px;
+       padding-left:10px;
+     }
+    .footer-container{
+      width:100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
  }
