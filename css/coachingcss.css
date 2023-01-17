@@ -104,6 +104,24 @@
 .left-container img{
    width:300px;
 }
+.left-container {
+   transform: translateX(-100%);
+   opacity: 0;
+   transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out
+ }
+ .left-container.active{
+   transform: translateX(0%);
+   opacity: 1;
+ }
+ .right-container {
+   transform: translateX(100%);
+   opacity: 0;
+   transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out
+ }
+ .right-container.active{
+   transform: translateX(0%);
+   opacity: 1;
+ }
 .right-container img{
    width: 250px;
    height: 250px;

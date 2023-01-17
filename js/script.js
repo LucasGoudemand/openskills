@@ -62,3 +62,65 @@ previousButton.addEventListener('click', function() {
   currentSlide = (currentSlide - 1 + slides.length) % slides.length;
   slides[currentSlide].classList.add('active');
 });
+
+
+//first Content bubble slide
+const slidingBubble = document.querySelector('.bubble-first-content');
+
+window.addEventListener('scroll', () => {
+
+    const {scrollTop, clientHeight} = document.documentElement;
+    
+    const elementToTopViewport = slidingBubble.getBoundingClientRect().top;
+
+    if(scrollTop > (scrollTop + elementToTopViewport).toFixed() - clientHeight * 0.50) {
+      slidingBubble.classList.add('active')
+    }
+    
+})
+
+//seconde bubble COntent slide
+const slidingBubbleSecond = document.querySelector('.bubble-third-content');
+
+window.addEventListener('scroll', () => {
+
+    const {scrollTop, clientHeight} = document.documentElement;
+    
+    const elementToTopViewport = slidingBubbleSecond.getBoundingClientRect().top;
+
+    if(scrollTop > (scrollTop + elementToTopViewport).toFixed() - clientHeight * 0.50) {
+      slidingBubbleSecond.classList.add('active')
+    }
+    
+})
+
+//third bubble COntent slide
+const slidingBubbleThird = document.querySelector('.bubble-fifth-content');
+
+window.addEventListener('scroll', () => {
+
+    const {scrollTop, clientHeight} = document.documentElement;
+    
+    const elementToTopViewport = slidingBubbleThird.getBoundingClientRect().top;
+
+    if(scrollTop > (scrollTop + elementToTopViewport).toFixed() - clientHeight * 0.50) {
+      slidingBubbleThird.classList.add('active')
+    }
+    
+})
+
+//third bubble COntent slide
+const slidingBubblefourth = document.querySelector('.bubble-sixth-content');
+
+window.addEventListener('scroll', () => {
+
+    const {scrollTop, clientHeight} = document.documentElement;
+    
+    const elementToTopViewport = slidingBubblefourth.getBoundingClientRect().top;
+
+    if(scrollTop > (scrollTop + elementToTopViewport).toFixed() - clientHeight * 0.50) {
+      slidingBubblefourth.classList.add('active')
+    }
+    
+})
+
