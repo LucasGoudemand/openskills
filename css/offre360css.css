@@ -54,7 +54,7 @@
     margin: 10px;
     padding: 15px 45px;
     color: white; 
-    border-radius: 20px;
+    border-radius: 15px;
     border-width: 0px;
     box-shadow:  2px 2px 1px grey;
     background-image: linear-gradient(to right, #08ACD4 0%, #FFDC5D  51%, #08ACD4  100%);
@@ -82,20 +82,46 @@
     margin-top:30px;
     margin-bottom:50px;
  }
+ .main-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
  .offre-container{
-    background-color: #FFDC5D;
+    background-color: #ffdc5d;
+    background-image: linear-gradient(160deg, #ffdc5d 16%, #08acd4 100%);
     border-radius: 10px 10px 10px 10px;
-    margin-left:100px;
-    margin-right:100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left:20px;
+   padding-right: 20px;
+   background: rgba(255, 255, 255, 0.19);
+   border-radius: 16px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(5.2px);
+   -webkit-backdrop-filter: blur(5.2px);
+   border: 1px solid rgba(255, 255, 255, 0.78);
+ }
+ .emoji-txt {
+   width:20px;
+   height: 20px;
+   margin-right: 10px;
  }
  .first-content{
     text-align: center;
     padding-top:30px;
     padding-bottom: 30px;
+    width: 104%;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    padding-bottom: 20px;
  }
  .second-container{
     display: flex;
-    padding-bottom:150px;
+    padding-bottom:50px;
+    margin-top:30px;
  }
  .middle-container{
     margin-left: 30px;
@@ -104,6 +130,14 @@
  .left-container{
     margin-left:30px;
  }
+ .left-container h2{
+   margin-top:-10px;
+}
+.button-postuler{
+   background-color: #FFDC5D;
+   height: 30px;
+   border-radius: 10px;
+}
  .line-black{
     background-color: black;
     height: 2px;
@@ -114,6 +148,10 @@
  .vertical-one{
     width: 2px;
     height: 800px;
+    margin-top:10px;
+ }
+ .long-one{
+   margin-right:20px;
  }
  .logo-openskills-left-container{
     width:100px;
@@ -122,6 +160,7 @@
  .social-media-left-container img{
     width:30px;
     height: 30px;
+    margin:10px;
  }
  .second-container p{
     font-size:14px;
