@@ -279,12 +279,11 @@
   }
   .first-line {
     position: absolute;
-    margin-top: -20px;
+    margin-top: -50px;
     margin-left: 130px;
   }
   .second-line {
     position: absolute;
-    margin-top: 30px;
     margin-left: 25px;
   }
   .emoji-3 {
@@ -365,6 +364,76 @@
    .nav-heropage {
       justify-content: center;
       margin-right: 0px;
+    }
+   .second-container{
+      flex-wrap: wrap;
+   }
+   .left-container{
+      margin-left:0px;
+      margin-left:20px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+   }
+   .vertical-one{
+      display: none;
+   }
+   .third-container{
+      flex-wrap:wrap ;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .third-container-txt-sophie{
+      margin-left:0px;
+      text-align: center;
+   }
+   .offre-container{
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+   }
+   .conseil-line{
+      flex-wrap: wrap;
+      padding-left:10px;
+      padding-right: 10px;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+   }
+   .conseil-line button{
+      width: 250px;
+   }
+   .right-hero-container{
+      margin-left: 0px;
+   }
+   .tooltip1 {
+      display: none;
+    margin-top: -100px;
+    margin-left: 20px;
+    }
+    .tooltip2 {
+      display: none;
+    margin-top: -80px;
+    margin-left: 50px;
+    position: absolute;
+    }
+    .tooltip3 {
+      display: none;
+    margin-top: -100px;
+    margin-left: -10px;
+    }
+    .tooltip4 {
+      display: none;
+    margin-top: -50px;
+    margin-left: -100px;
+    position: absolute;
+    }
+    .tooltip5 {
+      display: none;
+    margin-top: -80px;
+    margin-left: 100px;
+    position: absolute;
     }
    .footer-container{
       width:100%;

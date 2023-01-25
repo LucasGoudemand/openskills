@@ -266,6 +266,7 @@
   color: #08acd4;
 }
 .carousel-social-proof {
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -274,6 +275,7 @@
 }
 .carousel-social-proof img {
   margin-left: 35px;
+  margin-top:20px;
 }
 .marquee-rtl {
   display: inline-block; /* important */
