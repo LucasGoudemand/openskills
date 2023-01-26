@@ -45,9 +45,9 @@
 }
 /* MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT */
 .main-container{
-    background-image: url("../img/wave-b.png");
-    background-size:auto;
-    
+   background-image: url("../img/wave-b.png");
+  background-repeat: repeat;
+  background-size: contain;
  }
  .title-recrutement-h1 {
     text-align: center;
@@ -347,6 +347,9 @@
    .logo-openskills{
      margin-left:0px;
    }
+   .main-container {
+      background-size: auto;
+    }
    .nav-heropage {
       justify-content: center;
       margin-right: 0px;
@@ -369,7 +372,6 @@
     }
     .midle-container img{
       height: 200px;
-      rotate:76deg;
     }
     .midle-container {
       display: none;
@@ -516,7 +518,6 @@
      }
      .midle-container img{
        height: 200px;
-       rotate:76deg;
      }
      .midle-container {
        display: none;

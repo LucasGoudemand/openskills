@@ -45,8 +45,9 @@
 }
 /* MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT */
 .main-container{
-   background-image: url("../img/wave-background.png");
-   background-size:cover;
+   background-image: url("../img/wave-b.png");
+   background-repeat: repeat;
+   background-size: contain;
 }
 .button-lead {
    background-size: 200% auto;
@@ -167,6 +168,9 @@
    .logo-openskills {
      margin-left: 0px;
    }
+   .main-container {
+      background-size: auto;
+    }
    .nav-heropage {
      justify-content: center;
      margin-right: 0px;
