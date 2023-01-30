@@ -47,7 +47,7 @@
 .main-container{
    background-image: url("../img/wave-b.png");
   background-repeat: repeat;
-  background-size: contain;
+  background-size:cover;
  }
  .button-lead {
     background-size: 200% auto;
@@ -398,7 +398,6 @@
    }
    .conseil-line{
       flex-wrap: wrap;
-      padding-left:10px;background-image: url("../img/wave-b.png");
       background-repeat: repeat;
       background-size: contain;
       padding-right: 10px;

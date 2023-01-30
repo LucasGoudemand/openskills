@@ -280,7 +280,7 @@
 .marquee-rtl {
   display: inline-block; /* important */
   white-space: nowrap; /* important */
-  animation: defilement-rtl 45s infinite linear; /* défilement */
+  animation: defilement-rtl 60s infinite linear; /* défilement */
   cursor: pointer;
 }
 @keyframes defilement-rtl {

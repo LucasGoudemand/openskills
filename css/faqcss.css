@@ -139,7 +139,7 @@
   font-weight: 100;
   margin-left: 20px;
 }
-.first-faq:hover {
+.first-faq:focus {
   height: 170px;
 }
 .second-faq:hover {
