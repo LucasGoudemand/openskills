@@ -76,10 +76,7 @@
   background-color: #ffdc5d;
 }
 .main-container strong.blue {
-  background-color: #08acd4;
-}
-.main-container strong.red {
-  background-color: #e31616;
+  background-color: #08abd480;
 }
 .first-content {
   display: flex;

@@ -89,10 +89,7 @@
    background-color: #FFDC5D;
 }
 .main-container strong.blue{ 
-   background-color: #08ACD4;
-}
-.main-container strong.red{ 
-   background-color: #E31616;
+   background-color: #08abd480;
 }
 .download-container {
    display: flex;
