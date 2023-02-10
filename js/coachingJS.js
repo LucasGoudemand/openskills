@@ -12,18 +12,3 @@ window.addEventListener('scroll', () => {
     }
     
 })
-
-//right bubble COntent slide
-const slidingRightContainer = document.querySelector('.right-container');
-
-window.addEventListener('scroll', () => {
-
-    const {scrollTop, clientHeight} = document.documentElement;
-    
-    const elementToTopViewport = slidingRightContainer.getBoundingClientRect().top;
-
-    if(scrollTop > (scrollTop + elementToTopViewport).toFixed() - clientHeight * 0.50) {
-        slidingRightContainer.classList.add('active')
-    }
-    
-})
