@@ -82,6 +82,10 @@
     align-items: center;
     margin-top:20px;
  }
+ .first-content h1{
+   font-size:40px;
+   text-align: center;
+}
  .first-content-bubble-formation {
    transform: translateX(100%);
    opacity: 0;
@@ -119,6 +123,7 @@
  }
  .txt-second-content{
     text-align: center;
+    font-size:21px;
  }
  .schema-bubble-container {
     display: flex;

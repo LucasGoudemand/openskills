@@ -88,6 +88,9 @@
    align-items: center;
    margin-top:50px;
 }
+.first-content h1{
+   font-size:40px;
+}
 .light-img{
    width: 40px;
    height: 40px;
@@ -98,6 +101,9 @@
    justify-content: center;
    align-items: center;
    text-align: center;
+}
+.three-componant p{
+   font-size:21px;
 }
 .left-container img{
    width:300px;
@@ -119,6 +125,7 @@
 .txt-middle{
    text-align: center;
    margin-top:50px;
+   font-size:21px;
 }
 .second-content{
    display: flex;
