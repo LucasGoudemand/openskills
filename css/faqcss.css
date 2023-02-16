@@ -4,7 +4,9 @@
 }
 .full-container {
   margin: auto;
-  background-color: #f0faeb;
+  background-image: url("../img/backgroundnew.svg");
+  /*background-repeat: repeat;*/
+  background-size: cover;
 }
 /*HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
 .header-container {
@@ -45,8 +47,9 @@
 }
 /* MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT */
 .main-container {
-  background-image: url("../img/wave-b.png");
-  background-repeat: repeat;
+  background-image: url("../img/backgroundnew.svg");
+  /*background-repeat: repeat;*/
+  background-size: cover;
 }
 .button-lead {
   background-size: 200% auto;
@@ -87,11 +90,12 @@
   width: 350px;
 }
 .first-content p {
-  background-color: rgb(233, 224, 224);
+  background-color: rgba(0, 0, 0, 0.866);
   padding: 15px;
   border-radius: 30px 30px 30px 0px;
   font-weight: 800;
   height: 70px;
+  color: white;
 }
 .second-content {
   display: flex;

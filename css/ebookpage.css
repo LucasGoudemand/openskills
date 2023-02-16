@@ -1,213 +1,220 @@
 * {
-    box-sizing: border-box;
-    font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 .full-container {
-    margin: auto;
-    background-color: #F0FAEB;
+  margin: auto;
+  background-image: url("../img/backgroundnew.svg");
+  /*background-repeat: repeat;*/
+  background-size: cover;
 }
 /*HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
 .header-container {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 .logo-openskills {
-    width: 100px;
-    height: 110px;
-    margin-left: 50px;
+  width: 100px;
+  height: 110px;
+  margin-left: 50px;
 }
 .title-openskills {
-    color: #08ACD4;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  color: #08acd4;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .nav-heropage {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: end;
-    width: 100%;
-    margin-right: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  margin-right: 50px;
 }
 .nav-heropage a {
-    text-decoration: none;
-    color: initial;
-    border: 10px;
-    margin: 15px;
-    font-weight: 600;
+  text-decoration: none;
+  color: initial;
+  border: 10px;
+  margin: 15px;
+  font-weight: 600;
 }
 .nav-heropage a:hover {
-    border-width: 1px;
-    color: #08ACD4;
-    border-bottom: solid;
+  border-width: 1px;
+  color: #08acd4;
+  border-bottom: solid;
 }
 /* MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT */
-.main-container{
-   background-image: url("../img/wave-b.png");
-   background-repeat: repeat;
-   background-size: contain;
+.main-container {
+  background-image: url("../img/backgroundnew.svg");
+  /*background-repeat: repeat;*/
+  background-size: cover;
 }
 .button-lead {
-   background-size: 200% auto;
-   margin: 10px;
-   padding: 15px 45px;
-   color: white; 
-   border-radius: 20px;
-   border-width: 0px;
-    box-shadow:  2px 2px 1px grey;
-   background-image: linear-gradient(to right, #08ACD4 0%, #FFDC5D  51%, #08ACD4  100%);
+  background-size: 200% auto;
+  margin: 10px;
+  padding: 15px 45px;
+  color: white;
+  border-radius: 20px;
+  border-width: 0px;
+  box-shadow: 2px 2px 1px grey;
+  background-image: linear-gradient(
+    to right,
+    #08acd4 0%,
+    #ffdc5d 51%,
+    #08acd4 100%
+  );
 }
 .button-lead:hover {
-   background-position: right center; /* change the direction of the change here */
-   color: #fff;
-   text-decoration: none;
-   transition: 0.5s;
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
 }
-.button-lead i{
-   margin-left:10px;
+.button-lead i {
+  margin-left: 10px;
 }
-.description-container{
-   display: flex;
-   justify-content: center;
-   padding-top:40px;
-   padding-bottom: 40px;
+.description-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-.ebook-description{
-   margin-top:15px;
-   margin-left:30px;
+.ebook-description {
+  margin-top: 15px;
+  margin-left: 30px;
 }
-.ebook-description li{
-   margin-top:15px;
+.ebook-description li {
+  margin-top: 15px;
 }
-.description-container img{
-   width:600px;
-   margin-right:30px;
+.description-container img {
+  width: 600px;
+  margin-right: 30px;
 }
-.main-container strong.yellow{ 
-   background-color: #FFDC5D;
+.main-container strong.yellow {
+  background-color: #ffdc5d;
 }
-.main-container strong.blue{ 
-   background-color: #08abd480;
+.main-container strong.blue {
+  background-color: #08abd480;
 }
 .download-container {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
 }
 /* FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT */
 .footer-container {
-    display: flex;
-    justify-content:space-evenly;
-    padding:30px;
-    background-image: url("../img/background-footer.png");
-    background-size: cover;
-    border-radius: 30px 30px 0px 0px;
-    box-shadow:  1px 0px 10px 5px grey; ;
-    font-size: 12px;
- }
- .footer-col1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
- .footer-col1 h3{
-    color: #08ACD4;
- }
- .instagram-logo {
-    width: 25px;
-    height: 25px;
-    margin-top:10px;
- }
- .linkedin-logo {
-    width: 25px;
-    height: 25px;
- }
- .footer-col2 {
-    display: flex;
-    flex-direction: column;
- }
- .footer-col2 img {
-    width: 100px;
-    height: 120px;
- }
- .footer-col3 {
-    display: flex;
-    flex-direction: column;
- }
- .footer-col3 a{
-    text-decoration: none;
-    color: initial;
-    margin-top: 8px;
- }
- .footer-col4 {
-    display: flex;
-    flex-direction: column;
- }
- .footer-col4 a{
-    text-decoration: none;
-    color: initial;
-    margin-top: 8px;
- }
- .footer-col5 {
-    display: flex;
-    flex-direction: column;
- }
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  background-image: url("../img/background-footer.png");
+  background-size: cover;
+  border-radius: 30px 30px 0px 0px;
+  box-shadow: 1px 0px 10px 5px grey;
+  font-size: 12px;
+}
+.footer-col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-col1 h3 {
+  color: #08acd4;
+}
+.instagram-logo {
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+}
+.linkedin-logo {
+  width: 25px;
+  height: 25px;
+}
+.footer-col2 {
+  display: flex;
+  flex-direction: column;
+}
+.footer-col2 img {
+  width: 100px;
+  height: 120px;
+}
+.footer-col3 {
+  display: flex;
+  flex-direction: column;
+}
+.footer-col3 a {
+  text-decoration: none;
+  color: initial;
+  margin-top: 8px;
+}
+.footer-col4 {
+  display: flex;
+  flex-direction: column;
+}
+.footer-col4 a {
+  text-decoration: none;
+  color: initial;
+  margin-top: 8px;
+}
+.footer-col5 {
+  display: flex;
+  flex-direction: column;
+}
 
- @media all and (max-width: 768px) {
-   .header-container {
-     flex-wrap: wrap;
-     justify-content: center;
-   }
-   .logo-openskills {
-     margin-left: 0px;
-   }
-   .main-container {
-      background-size: auto;
-    }
-   .nav-heropage {
-     justify-content: center;
-     margin-right: 0px;
-   }
-   .description-container{
-      flex-direction: column;
-   }
-   .description-container img{
-      margin-right: 0px;
-      width:300px;
-   }
-   .leadform-button {
-     flex-wrap: wrap;
-     text-align: center;
-   }
-   .ebook-description{
-      margin-left:0px;
-      padding-left: 10px;
-      padding-right: 10px;
-      text-align: center;
-   }
-   .download-container{
-      padding-left:10px;
-      padding-right: 10px;
-      text-align: center;
-      padding-bottom:150px;
-   }
-   .ebookpage-button {
-     flex-wrap: wrap;
-     margin-top: 120px;
-     padding-left: 10px;
-     padding-right: 10px;
-     text-align: center;
-   }
-   .footer-container {
-     width: 100%;
-     margin-top: -70px;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
-   }
- }
+@media all and (max-width: 768px) {
+  .header-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .logo-openskills {
+    margin-left: 0px;
+  }
+  .main-container {
+    background-size: auto;
+  }
+  .nav-heropage {
+    justify-content: center;
+    margin-right: 0px;
+  }
+  .description-container {
+    flex-direction: column;
+  }
+  .description-container img {
+    margin-right: 0px;
+    width: 300px;
+  }
+  .leadform-button {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .ebook-description {
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .download-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    padding-bottom: 150px;
+  }
+  .ebookpage-button {
+    flex-wrap: wrap;
+    margin-top: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .footer-container {
+    width: 100%;
+    margin-top: -70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

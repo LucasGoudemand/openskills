@@ -1,346 +1,336 @@
 * {
-    box-sizing: border-box;
-    font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 .full-container {
-    margin: auto;
-    background-color: #F0FAEB;
+  margin: auto;
+  background-image: url("../img/backgroundnew.svg");
+  /*background-repeat: repeat;*/
+  background-size: cover;
 }
 /*HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
 .header-container {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 .logo-openskills {
-    width: 100px;
-    height: 110px;
-    margin-left: 50px;
+  width: 100px;
+  height: 110px;
+  margin-left: 50px;
 }
 .title-openskills {
-    color: #08ACD4;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  color: #08acd4;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .nav-heropage {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: end;
-    width: 100%;
-    margin-right: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  margin-right: 50px;
 }
 .nav-heropage a {
-    text-decoration: none;
-    color: initial;
-    border: 10px;
-    margin: 15px;
-    font-weight: 600;
+  text-decoration: none;
+  color: initial;
+  border: 10px;
+  margin: 15px;
+  font-weight: 600;
 }
 .nav-heropage a:hover {
-    border-width: 1px;
-    color: #08ACD4;
-    border-bottom: solid;
+  border-width: 1px;
+  color: #08acd4;
+  border-bottom: solid;
 }
 /* MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT */
-.main-container{
-   background-image: url("../img/wave-b.png");
-  background-repeat: repeat;
-  background-size: contain;
- }
- .button-lead {
-    background-size: 200% auto;
-    margin: 10px;
-    padding: 15px 45px;
-    color: white; 
-    border-radius: 20px;
-    border-width: 0px;
-    box-shadow:  2px 2px 1px grey;
-    background-image: linear-gradient(to right, #08ACD4 0%, #FFDC5D  51%, #08ACD4  100%);
- }
- .button-lead:hover {
-    background-position: right center; /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
-    transition: 0.5s;
- }
- .button-lead i{
-    margin-left:10px;
- }
- .main-container strong.yellow{ 
-    background-color: #FFDC5D;
- }
- .main-container strong.blue{ 
-    background-color: #08abd480;
- }
- .first-content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top:20px;
- }
- .first-content h1{
-   font-size:40px;
-   text-align: center;
+.main-container {
+  background-image: url("../img/backgroundnew.svg");
+  /*background-repeat: repeat;*/
+  background-size: cover;
 }
- .first-content-bubble-formation {
-   transform: translateX(100%);
-   opacity: 0;
-   transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out
- }
- .first-content-bubble-formation.active{
-   transform: translateX(0%);
-   opacity: 1;
- }
- .graph-img{
-    width: 30px;
-    height: 30px;
- }
- .img-marine-smile {
-    display: flex;
-    margin-top:50px;
-    align-items: flex-start;
- }
- .img-marine-smile img{
-    width: 200px;
-    height: 200px;
- }
- .img-marine-smile p{
-    background-color: rgb(233, 224, 224);
-    padding:15px;
-    border-radius: 30px 30px 30px 0px;
-    font-weight: 800;
- }
- .second-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top:50px;
- }
- .txt-second-content{
-    text-align: center;
-    font-size:21px;
- }
- .schema-bubble-container {
-    display: flex;
-    align-items: flex-start;
-    margin-top:50px;
- }
- .schema-bubble-container img{
-    width:300px;
-    height: 280px;
-    margin-top:50px;
- }
- .schema-bubble-container p{
-    background-color: rgb(233, 224, 224);
-    padding:15px;
-    border-radius: 30px 30px 30px 0px;
-    font-weight: 800;
- }
- .third-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top:50px;
-    padding-bottom:150px;
- }
- .conseil-line{
-    display: flex;
-    height: 70px;
-    align-items: center;
- }
+.button-lead {
+  background-size: 200% auto;
+  margin: 10px;
+  padding: 15px 45px;
+  color: white;
+  border-radius: 20px;
+  border-width: 0px;
+  box-shadow: 2px 2px 1px grey;
+  background-image: linear-gradient(
+    to right,
+    #08acd4 0%,
+    #ffdc5d 51%,
+    #08acd4 100%
+  );
+}
+.button-lead:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.button-lead i {
+  margin-left: 10px;
+}
+.main-container strong.yellow {
+  background-color: #ffdc5d;
+}
+.main-container strong.blue {
+  background-color: #08abd480;
+}
+.first-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.first-content h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.first-content-bubble-formation {
+  transform: translateX(100%);
+  opacity: 0;
+  transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+}
+.first-content-bubble-formation.active {
+  transform: translateX(0%);
+  opacity: 1;
+}
+.graph-img {
+  width: 30px;
+  height: 30px;
+}
+.img-marine-smile {
+  display: flex;
+  margin-top: 50px;
+  align-items: flex-start;
+}
+.img-marine-smile img {
+  width: 200px;
+  height: 200px;
+}
+.img-marine-smile p {
+  background-color: rgba(0, 0, 0, 0.866);
+  padding: 15px;
+  border-radius: 30px 30px 30px 0px;
+  font-weight: 800;
+  color: white;
+}
+.second-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.txt-second-content {
+  text-align: center;
+  font-size: 21px;
+}
+.third-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding-bottom: 150px;
+}
+.conseil-line {
+  display: flex;
+  height: 70px;
+  align-items: center;
+}
 /* FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT */
 .footer-container {
-    display: flex;
-    justify-content:space-evenly;
-    padding:30px;
-    margin-top:-80px;
-    background-image: url("../img/background-footer.png");
-    background-size: cover;
-    border-radius: 30px 30px 0px 0px;
-    box-shadow:  1px 0px 10px 5px grey; ;
-    font-size: 12px;
- }
- .footer-col1 {
-    display: flex;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  margin-top: -80px;
+  background-image: url("../img/background-footer.png");
+  background-size: cover;
+  border-radius: 30px 30px 0px 0px;
+  box-shadow: 1px 0px 10px 5px grey;
+  font-size: 12px;
+}
+.footer-col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-col1 h3 {
+  color: #08acd4;
+}
+.instagram-logo {
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+}
+.linkedin-logo {
+  width: 25px;
+  height: 25px;
+}
+.footer-col2 {
+  display: flex;
+  flex-direction: column;
+}
+.footer-col2 img {
+  width: 100px;
+  height: 120px;
+}
+.footer-col3 {
+  display: flex;
+  flex-direction: column;
+}
+.footer-col3 a {
+  text-decoration: none;
+  color: initial;
+  margin-top: 8px;
+}
+.footer-col4 {
+  display: flex;
+  flex-direction: column;
+}
+.footer-col4 a {
+  text-decoration: none;
+  color: initial;
+  margin-top: 8px;
+}
+.footer-col5 {
+  display: flex;
+  flex-direction: column;
+}
+@media all and (max-width: 768px) {
+  .header-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .logo-openskills {
+    margin-left: 0px;
+  }
+  .main-container {
+    background-size: auto;
+  }
+  .nav-heropage {
+    justify-content: center;
+    margin-right: 0px;
+  }
+  .first-content {
+    width: 100%;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .second-content {
+    width: 100%;
+  }
+  .txt-second-content {
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .third-content {
+    width: 100%;
+  }
+  .schema-bubble-container {
     flex-direction: column;
+    justify-content: center;
     align-items: center;
- }
- .footer-col1 h3{
-    color: #08ACD4;
- }
- .instagram-logo {
-    width: 25px;
-    height: 25px;
-    margin-top:10px;
- }
- .linkedin-logo {
-    width: 25px;
-    height: 25px;
- }
- .footer-col2 {
-    display: flex;
+  }
+  .schema-bubble-container img {
+    margin-top: 0px;
+  }
+  .schema-bubble-container p {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .conseil-line {
+    flex-wrap: wrap;
+    margin-top: 0px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: center;
+  }
+  .third-content h2 {
+    margin-top: 200px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .footer-container {
+    width: 100%;
     flex-direction: column;
- }
- .footer-col2 img {
-    width: 100px;
-    height: 120px;
- }
- .footer-col3 {
-    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .header-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .logo-openskills {
+    margin-left: 0px;
+  }
+  .nav-heropage {
+    justify-content: center;
+    margin-right: 0px;
+  }
+  .first-content {
+    width: 100%;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .second-content {
+    width: 100%;
+  }
+  .txt-second-content {
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .third-content {
+    width: 100%;
+  }
+  .schema-bubble-container {
     flex-direction: column;
- }
- .footer-col3 a{
-    text-decoration: none;
-    color: initial;
-    margin-top: 8px;
- }
- .footer-col4 {
-    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .schema-bubble-container img {
+    margin-top: 0px;
+  }
+  .schema-bubble-container p {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .conseil-line {
+    flex-wrap: wrap;
+    margin-top: 0px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: center;
+  }
+  .third-content h2 {
+    margin-top: 200px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .footer-container {
+    width: 100%;
     flex-direction: column;
- }
- .footer-col4 a{
-    text-decoration: none;
-    color: initial;
-    margin-top: 8px;
- }
- .footer-col5 {
-    display: flex;
-    flex-direction: column;
- }
- @media all and (max-width: 768px) {
-   .header-container{
-     flex-wrap: wrap;
-     justify-content: center;
-   }
-   .logo-openskills{
-     margin-left:0px;
-   }
-   .main-container {
-      background-size: auto;
-    }
-   .nav-heropage {
-      justify-content: center;
-      margin-right: 0px;
-    }
-   .first-content{
-      width:100%;
-      text-align: center;
-      padding-right:10px;
-      padding-left:10px;
-    }
-    .second-content{
-      width:100%;
-    }
-    .txt-second-content{
-      text-align: center;
-      padding-right:10px;
-      padding-left:10px;
-    }
-    .third-content{
-      width:100%;
-    }
-    .schema-bubble-container{
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .schema-bubble-container img{
-      margin-top:0px;
-    }
-    .schema-bubble-container p{
-      margin-right:10px;
-      margin-left:10px;
-    }
-    .conseil-line{
-      flex-wrap: wrap;
-      margin-top: 0px;
-      text-align: center;
-      padding-right:10px;
-      padding-left:10px;
-      justify-content: center;
-    }
-    .third-content h2{
-      margin-top: 200px;
-      text-align: center;
-      padding-right:10px;
-      padding-left:10px;
-    }
-   .footer-container{
-     width:100%;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
-   }
-   
- }
- @media only screen and (min-width: 768px) and (max-width: 1200px) {
-   .header-container{
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    .logo-openskills{
-      margin-left:0px;
-    }
-    .nav-heropage {
-       justify-content: center;
-       margin-right: 0px;
-     }
-    .first-content{
-       width:100%;
-       text-align: center;
-       padding-right:10px;
-       padding-left:10px;
-     }
-     .second-content{
-       width:100%;
-     }
-     .txt-second-content{
-       text-align: center;
-       padding-right:10px;
-       padding-left:10px;
-     }
-     .third-content{
-       width:100%;
-     }
-     .schema-bubble-container{
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-     }
-     .schema-bubble-container img{
-       margin-top:0px;
-     }
-     .schema-bubble-container p{
-       margin-right:10px;
-       margin-left:10px;
-     }
-     .conseil-line{
-       flex-wrap: wrap;
-       margin-top: 0px;
-       text-align: center;
-       padding-right:10px;
-       padding-left:10px;
-       justify-content: center;
-     }
-     .third-content h2{
-       margin-top: 200px;
-       text-align: center;
-       padding-right:10px;
-       padding-left:10px;
-     }
-    .footer-container{
-      width:100%;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-    
- }
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
