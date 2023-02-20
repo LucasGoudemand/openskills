@@ -46,11 +46,7 @@
   border-bottom: solid;
 }
 /* MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT */
-.main-container {
-  background-image: url("../img/backgroundnew.svg");
-  /*background-repeat: repeat;*/
-  background-size: cover;
-}
+
 .title-recrutement-h1 {
   text-align: center;
   margin-top: 50px;
@@ -63,7 +59,7 @@
   margin: 10px;
   padding: 15px 45px;
   color: white;
-  border-radius: 20px;
+  border-radius: 15px;
   border-width: 0px;
   box-shadow: 2px 2px 1px grey;
   background-image: linear-gradient(
@@ -152,6 +148,13 @@
   font-weight: 800;
   margin-left: 60px;
   color: white;
+}
+.second-middle-container img {
+  width: 200px;
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 380px;
+  rotate: 6deg;
 }
 .second-middle-container {
   display: flex;
@@ -270,8 +273,9 @@
   padding-bottom: 200px;
 }
 .conseil-line img {
-  width: 80px;
+  width: 50px;
   margin-left: 30px;
+  margin-top: 20px;
 }
 /* FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT */
 .footer-container {
