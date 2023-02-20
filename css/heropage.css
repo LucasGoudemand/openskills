@@ -313,7 +313,7 @@ strong.green {
   align-items: center;
 }
 .first-content h1 {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
 }
 .first-content p {
@@ -345,7 +345,7 @@ strong.green {
 }
 .second-content h2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
 }
 .second-content p {
   text-align: center;
@@ -387,7 +387,7 @@ strong.green {
 }
 .third-content h2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
 }
 .third-content li {
   margin: 10px;
@@ -401,7 +401,7 @@ strong.green {
 }
 .title-fourth {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   padding-bottom: 20px;
 }
 .blue-color {
