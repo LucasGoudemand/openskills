@@ -255,7 +255,7 @@ strong.yellow {
   background-color: #ffdc5d;
 }
 strong.blue {
-  background-color: #08abd480;
+  background-color: #82d4089b;
 }
 strong.green {
   width: 10px;
@@ -410,23 +410,21 @@ strong.green {
 .fifth-content {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-bottom: 250px;
-}
-.text-content-fifth {
-  text-align: center;
 }
 .fifth-content-img {
   width: 150px;
   height: 150px;
   position: absolute;
-  margin-left: -250px;
+  margin-left: -280px;
+  margin-top: 50px;
   rotate: -6deg;
 }
 .fifth-content p {
   font-size: 21px;
+  margin-left: 50px;
 }
 .bubble-fifth-content p {
   background-color: rgba(0, 0, 0, 0.866);
@@ -448,7 +446,6 @@ strong.green {
   opacity: 1;
 }
 .sixth-content {
-  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

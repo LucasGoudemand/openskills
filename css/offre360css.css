@@ -81,6 +81,9 @@
 .main-container strong.blue {
   background-color: #08abd480;
 }
+.main-container strong.rose {
+  background-color: #f32eb8e7;
+}
 
 .title-h1 {
   text-align: center;
