@@ -172,15 +172,9 @@
   height: 100px;
   position: absolute;
   padding: 5px;
-  border-radius: 50%;
-  background: radial-gradient(
-    circle at 75% 30%,
-    white 5px,
-    #ffdc5d 8%,
-    #08acd4 60%,
-    #ffdc5d 100%
-  );
-  text-align: center;
+  background: black;
+  border-radius: 100%;
+  background: radial-gradient(circle at 30px 60px, #94f00ad2, #395c03);
 }
 .bubble2 {
   font-weight: 700;
@@ -194,13 +188,7 @@
   position: absolute;
   padding: 5px;
   border-radius: 50%;
-  background: radial-gradient(
-    circle at 75% 30%,
-    white 5px,
-    #ffdc5d 8%,
-    #08acd4 60%,
-    #ffdc5d 100%
-  );
+  background: radial-gradient(circle at 30px 60px, #94f00ad2, #395c03);
   text-align: center;
 }
 .bubble3 {
@@ -215,13 +203,7 @@
   position: absolute;
   padding: 5px;
   border-radius: 50%;
-  background: radial-gradient(
-    circle at 75% 30%,
-    white 5px,
-    #ffdc5d 8%,
-    #08acd4 60%,
-    #ffdc5d 100%
-  );
+  background: radial-gradient(circle at 30px 60px, #94f00ad2, #395c03);
   text-align: center;
 }
 .bubble4 {
@@ -236,13 +218,7 @@
   position: absolute;
   padding: 5px;
   border-radius: 50%;
-  background: radial-gradient(
-    circle at 75% 30%,
-    white 5px,
-    #ffdc5d 8%,
-    #08acd4 60%,
-    #ffdc5d 100%
-  );
+  background: radial-gradient(circle at 30px 60px, #94f00ad2, #395c03);
   text-align: center;
 }
 .bubble5 {
@@ -257,13 +233,7 @@
   padding: 5px;
   position: absolute;
   border-radius: 50%;
-  background: radial-gradient(
-    circle at 75% 30%,
-    white 5px,
-    #ffdc5d 8%,
-    #08acd4 60%,
-    #ffdc5d 100%
-  );
+  background: radial-gradient(circle at 30px 60px, #94f00ad2, #395c03);
   text-align: center;
 }
 .conseil-line {
@@ -373,6 +343,10 @@
   .midle-container {
     display: none;
   }
+  .txt-middle {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
   .right-container {
     display: flex;
     flex-direction: column;
@@ -473,12 +447,18 @@
     flex-direction: column;
     justify-content: center;
   }
+  .second-middle-container img {
+    width: 100px;
+    margin-left: 190px;
+    margin-top: 120px;
+  }
   .conseil-line {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
   }
   .conseil-line h1 {
     text-align: center;
+    margin-top: 40px;
   }
   .conseil-line button {
     margin-left: 70px;

@@ -341,8 +341,13 @@
   .logo-openskills {
     margin-left: 0px;
   }
-  .main-container {
-    background-size: auto;
+  .title-recrutement-h1 {
+    padding-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .first-content img {
+    margin-right: 0px;
   }
   .nav-heropage {
     justify-content: center;
@@ -381,7 +386,7 @@
     border-radius: 30px 30px 30px 30px;
   }
   .right-container img {
-    margin-left: 60px;
+    display: none;
   }
   .right-container p {
     border-radius: 30px 30px 30px 30px;

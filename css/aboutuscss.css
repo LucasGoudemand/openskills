@@ -78,7 +78,7 @@
 }
 
 .card:hover {
-  height: 550px;
+  height: 600px;
   transform: skew(0deg);
 }
 .align {
@@ -339,9 +339,6 @@
   .nav-heropage {
     justify-content: center;
     margin-right: 0px;
-  }
-  .main-container {
-    background-size: auto;
   }
   .first-content {
     width: 100%;

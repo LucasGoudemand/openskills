@@ -82,7 +82,7 @@
   background-color: #08abd480;
 }
 .main-container strong.rose {
-  background-color: #f32eb8e7;
+  background-color: #f30004d1;
 }
 
 .title-h1 {
@@ -374,11 +374,10 @@
     justify-content: center;
     margin-right: 0px;
   }
-  .main-container {
-    background-size: auto;
-  }
   .second-container {
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
   .left-container {
     margin-left: 0px;
