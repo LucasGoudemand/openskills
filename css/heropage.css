@@ -229,6 +229,9 @@
   margin-left: 35px;
   margin-top: 20px;
 }
+.darwin-logo {
+  width: 310px;
+}
 .marquee-rtl {
   display: inline-block; /* important */
   white-space: nowrap; /* important */
@@ -273,6 +276,9 @@ strong.green {
 .a4-content img {
   width: 100px;
 }
+.a4-content-container:hover {
+  box-shadow: 0 5px 35px 0px rgb(237, 209, 26);
+}
 .a4-content-container {
   display: flex;
   flex-direction: column;
@@ -288,6 +294,7 @@ strong.green {
   backdrop-filter: blur(5.2px);
   -webkit-backdrop-filter: blur(5.2px);
   border: 1px solid rgba(255, 255, 255, 0.78);
+  transition: 1s box-shadow;
 }
 .text-content img {
   width: 25px;
