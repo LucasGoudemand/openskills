@@ -190,7 +190,7 @@
   background-color: #ffdc5d;
 }
 .main-container strong.blue {
-  background-color: #08abd480;
+  background-color: #30dbe7;
 }
 .first-content {
   display: flex;
@@ -211,6 +211,7 @@
   font-weight: 800;
   color: white;
   width: 300px;
+  margin-top: 50px;
 }
 .txt-history img {
   width: 200px;

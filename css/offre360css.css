@@ -79,12 +79,11 @@
   background-color: #ffdc5d;
 }
 .main-container strong.blue {
-  background-color: #08abd480;
+  background-color: #30dbe7;
 }
 .main-container strong.rose {
-  background-color: #f30004d1;
+  background: linear-gradient(45deg, #833ab4, #c13584, #e1306c, #fd1d1d);
 }
-
 .title-h1 {
   text-align: center;
   margin-top: 30px;

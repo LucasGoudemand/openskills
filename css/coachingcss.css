@@ -82,7 +82,7 @@
   background-color: #ffdc5d;
 }
 .main-container strong.blue {
-  background-color: #08abd480;
+  background-color: #30dbe7;
 }
 .first-content {
   display: flex;
@@ -174,7 +174,17 @@
   padding: 5px;
   background: black;
   border-radius: 100%;
-  background: radial-gradient(circle at 30px 60px, #94f00ad2, #395c03);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+.bubble-1:hover {
+  box-shadow: 0 5px 35px 0px #d6249f;
 }
 .bubble2 {
   font-weight: 700;
@@ -188,8 +198,18 @@
   position: absolute;
   padding: 5px;
   border-radius: 50%;
-  background: radial-gradient(circle at 30px 60px, #94f00ad2, #395c03);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
   text-align: center;
+}
+.bubble2:hover {
+  box-shadow: 0 5px 35px 0px #d6249f;
 }
 .bubble3 {
   font-weight: 700;
@@ -203,8 +223,18 @@
   position: absolute;
   padding: 5px;
   border-radius: 50%;
-  background: radial-gradient(circle at 30px 60px, #94f00ad2, #395c03);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
   text-align: center;
+}
+.bubble3:hover {
+  box-shadow: 0 5px 35px 0px #d6249f;
 }
 .bubble4 {
   font-weight: 700;
@@ -218,8 +248,18 @@
   position: absolute;
   padding: 5px;
   border-radius: 50%;
-  background: radial-gradient(circle at 30px 60px, #94f00ad2, #395c03);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
   text-align: center;
+}
+.bubble4:hover {
+  box-shadow: 0 5px 35px 0px #d6249f;
 }
 .bubble5 {
   font-weight: 700;
@@ -233,8 +273,18 @@
   padding: 5px;
   position: absolute;
   border-radius: 50%;
-  background: radial-gradient(circle at 30px 60px, #94f00ad2, #395c03);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
   text-align: center;
+}
+.bubble5:hover {
+  box-shadow: 0 5px 35px 0px #d6249f;
 }
 .conseil-line {
   display: flex;
