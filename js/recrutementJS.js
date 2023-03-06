@@ -1,15 +1,18 @@
 //right bubble COntent slide
-const slidingBubbleRecrutementRightContainer = document.querySelector('.right-container-bubble-recrutement');
+const slidingBubbleRecrutementRightContainer = document.querySelector(
+  ".text-content-b1-bubble"
+);
 
-window.addEventListener('scroll', () => {
+window.addEventListener("scroll", () => {
+  const { scrollTop, clientHeight } = document.documentElement;
 
-    const {scrollTop, clientHeight} = document.documentElement;
-    
-    const elementToTopViewport = slidingBubbleRecrutementRightContainer.getBoundingClientRect().top;
+  const elementToTopViewport =
+    slidingBubbleRecrutementRightContainer.getBoundingClientRect().top;
 
-    if(scrollTop > (scrollTop + elementToTopViewport).toFixed() - clientHeight * 0.50) {
-        slidingBubbleRecrutementRightContainer.classList.add('active')
-    }
-    
-})
-
+  if (
+    scrollTop >
+    (scrollTop + elementToTopViewport).toFixed() - clientHeight * 0.5
+  ) {
+    slidingBubbleRecrutementRightContainer.classList.add("active");
+  }
+});

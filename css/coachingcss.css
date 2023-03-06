@@ -286,6 +286,12 @@
 .bubble5:hover {
   box-shadow: 0 5px 35px 0px #d6249f;
 }
+.marine-yoga {
+  position: absolute;
+  width: 230px;
+  margin-left: -310px;
+  margin-top: 50px;
+}
 .conseil-line {
   display: flex;
   margin-top: 50px;
