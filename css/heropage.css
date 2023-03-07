@@ -278,6 +278,10 @@ strong.green {
 }
 .a4-content-container:hover {
   box-shadow: 0 5px 35px 0px rgb(237, 209, 26);
+  transform: scale(1.05);
+}
+.a4-content-container:active {
+  transform: scale(0.95) rotateZ(1.7deg);
 }
 .a4-content-container {
   display: flex;
@@ -294,7 +298,7 @@ strong.green {
   backdrop-filter: blur(5.2px);
   -webkit-backdrop-filter: blur(5.2px);
   border: 1px solid rgba(255, 255, 255, 0.78);
-  transition: 1s box-shadow;
+  transition: 1s;
 }
 .text-content img {
   width: 25px;
