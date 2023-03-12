@@ -143,6 +143,7 @@
 .text-content-b4 {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 50px;
 }
 .text-content-b4 p {
   margin: 25px;
@@ -150,6 +151,11 @@
 }
 .text-content-b6 {
   padding-bottom: 50px;
+  display: flex;
+}
+.text-content-b6bis {
+  padding-bottom: 50px;
+  display: flex;
 }
 .text-content-b6-h2 {
   text-align: center;
@@ -157,13 +163,21 @@
 }
 .text-content-b6 li {
   font-size: 21px;
+  line-height: 30px;
+}
+.text-content-b6bis li {
+  font-size: 21px;
+  line-height: 30px;
 }
 .sophie-stars-b6 {
-  position: absolute;
-  width: 150px;
-  margin-left: 500px;
-  margin-top: -170px;
-  rotate: 6deg;
+  width: 200px;
+  margin-top: -30px;
+  rotate: -5deg;
+}
+.sophie-stars-b6bis {
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
 }
 .text-content-b7 {
   text-align: center;
@@ -316,15 +330,14 @@
   align-items: center;
   height: 70px;
 }
-.ebookpage-button {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.ebookpage-button img {
+.ebookpage-href img {
+  margin-top: 70px;
+  margin-left: 20px;
   width: 50px;
-  margin-left: 30px;
+}
+.yellow-line {
+  height: 270px;
+  padding-left: 30px;
 }
 /* FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT  FOOTER CONTENT */
 .footer-container {
@@ -386,6 +399,10 @@
   flex-direction: column;
 }
 @media all and (max-width: 768px) {
+  .main-container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
   .header-container {
     flex-wrap: wrap;
     justify-content: center;
@@ -409,42 +426,24 @@
     width: 100%;
     text-align: center;
   }
-  .second-content p {
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .collectif-container {
-    margin-left: 0px;
-  }
-  .softskills-container {
-    margin-left: 0px;
-    margin-top: 20px;
-  }
-  .valeur-container {
-    margin-left: 0px;
-    margin-top: 20px;
-  }
-  .third-content {
-    flex-wrap: wrap;
-    margin-top: 30px;
-    padding-bottom: 50px;
-  }
-  .midle-container {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .midle-container p {
-    border-radius: 30px 30px 30px 30px;
-  }
-  .right-container img {
+  .yellow-line {
     display: none;
   }
-  .right-container p {
-    border-radius: 30px 30px 30px 30px;
+  .text-content-b1 {
+    flex-direction: column;
   }
-  .fourth-content {
-    flex-wrap: wrap;
+  .text-content-b4 {
+    text-align: justify;
+  }
+  .text-content-b6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-content-b6bis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .leadform-button {
     flex-wrap: wrap;
@@ -477,16 +476,6 @@
   }
   .logo-openskills {
     margin-left: 0px;
-  }
-  .keyword-container {
-    flex-direction: column;
-    padding-bottom: 50px;
-  }
-  .collectif-container {
-    margin-bottom: 30px;
-  }
-  .softskills-container {
-    margin-bottom: 30px;
   }
   .nav-heropage {
     justify-content: center;

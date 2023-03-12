@@ -130,6 +130,11 @@
   margin-top: 50px;
   font-size: 21px;
 }
+.txt-align {
+  margin-top: 50px;
+  font-size: 21px;
+  margin-left: 30px;
+}
 .second-content {
   display: flex;
   justify-content: center;
@@ -161,6 +166,16 @@
   flex-direction: column;
   align-items: center;
 }
+.third-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.third-content img {
+  width: 200px;
+  margin-left: 30px;
+  margin-top: 150px;
+}
 .bubble-1 {
   font-weight: 700;
   display: flex;
@@ -174,14 +189,7 @@
   padding: 5px;
   background: black;
   border-radius: 100%;
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
+  background-color: #e8ceb0;
 }
 .bubble-1:hover {
   box-shadow: 0 5px 35px 0px #d6249f;
@@ -198,14 +206,7 @@
   position: absolute;
   padding: 5px;
   border-radius: 50%;
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
+  background-color: #e8ceb0;
   text-align: center;
 }
 .bubble2:hover {
@@ -223,14 +224,7 @@
   position: absolute;
   padding: 5px;
   border-radius: 50%;
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
+  background-color: #e8ceb0;
   text-align: center;
 }
 .bubble3:hover {
@@ -248,14 +242,7 @@
   position: absolute;
   padding: 5px;
   border-radius: 50%;
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
+  background-color: #e8ceb0;
   text-align: center;
 }
 .bubble4:hover {
@@ -273,14 +260,7 @@
   padding: 5px;
   position: absolute;
   border-radius: 50%;
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
+  background-color: #e8ceb0;
   text-align: center;
 }
 .bubble5:hover {
@@ -432,6 +412,13 @@
   .second-left-container img {
     width: 300px;
   }
+  .marine-yoga {
+    margin-left: -300px;
+  }
+  .txt-align {
+    margin-left: 10px;
+    padding-top: 40px;
+  }
   .bubble-1 {
     display: flex;
     justify-content: center;
@@ -502,6 +489,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .third-content img {
+    margin-top: 0px;
   }
   .second-middle-container img {
     width: 100px;

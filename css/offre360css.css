@@ -176,6 +176,9 @@
   font-weight: 700;
   font-size: 15px;
 }
+.bold-title-offre {
+  font-weight: bolder;
+}
 .third-container {
   display: flex;
   align-items: center;

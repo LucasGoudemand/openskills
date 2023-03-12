@@ -348,7 +348,6 @@ strong.green {
 }
 .second-content {
   padding-top: 100px;
-  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -404,7 +403,6 @@ strong.green {
   margin: 10px;
 }
 .fourth-content {
-  padding-top: 50px;
   padding-bottom: 50px;
 }
 .fourth-content p {
@@ -423,7 +421,7 @@ strong.green {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-bottom: 250px;
+  padding-bottom: 100px;
 }
 .fifth-content-img {
   width: 150px;
@@ -679,6 +677,7 @@ strong.green {
   }
   .a4-content {
     flex-direction: column;
+    padding-bottom: 0px;
   }
   .social-proof {
     margin-left: 0px;
@@ -707,6 +706,7 @@ strong.green {
   }
   .second-content {
     width: 100%;
+    padding-top: 0px;
     padding-left: 10px;
     padding-right: 10px;
   }
