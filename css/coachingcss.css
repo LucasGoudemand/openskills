@@ -84,6 +84,9 @@
 .main-container strong.blue {
   background-color: #30dbe7;
 }
+.main-container strong.beige {
+  background-color: #e8ceb0;
+}
 .first-content {
   display: flex;
   flex-direction: column;
@@ -93,6 +96,7 @@
 }
 .first-content h1 {
   font-size: 30px;
+  text-align: center;
 }
 .light-img {
   width: 40px;

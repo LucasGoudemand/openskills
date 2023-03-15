@@ -133,6 +133,13 @@
   display: flex;
   align-items: center;
 }
+.text-alignb4 {
+  text-align: start;
+  margin-right: 135px;
+}
+.text-alignb4bis {
+  margin-right: 15px;
+}
 .text-content-b3 h2 {
   text-align: center;
 }
@@ -143,11 +150,10 @@
 .text-content-b4 {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   padding-bottom: 50px;
-}
-.text-content-b4 p {
-  margin: 25px;
-  padding-bottom: 50px;
+  text-align: start;
 }
 .text-content-b6 {
   padding-bottom: 50px;
