@@ -649,6 +649,10 @@ strong.green {
   margin-top: 30px;
 }
 @media all and (max-width: 768px) {
+  .main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .header-container {
     flex-wrap: wrap;
     justify-content: center;
@@ -694,6 +698,11 @@ strong.green {
   .first-content {
     width: 100%;
     text-align: center;
+    padding-bottom: 50px;
+    margin-top: -30px;
+  }
+  .first-content h1 {
+    font-size: 25px;
   }
   .bubble-first-content {
     width: 200px;
@@ -713,7 +722,8 @@ strong.green {
   .third-content {
     width: 100%;
     text-align: center;
-    padding-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .third-content img {
     width: 150px;
@@ -733,6 +743,7 @@ strong.green {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 150px;
   }
   .fifth-content p {
     margin-left: 0;

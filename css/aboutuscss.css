@@ -279,6 +279,10 @@
 }
 
 @media all and (max-width: 768px) {
+  .main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .header-container {
     flex-wrap: wrap;
     justify-content: center;

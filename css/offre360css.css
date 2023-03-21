@@ -365,6 +365,10 @@
   flex-direction: column;
 }
 @media all and (max-width: 768px) {
+  .main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .header-container {
     flex-wrap: wrap;
     justify-content: center;
@@ -382,8 +386,7 @@
     justify-content: center;
   }
   .left-container {
-    margin-left: 0px;
-    margin-left: 20px;
+    margin-left: 10px;
     text-align: center;
     align-items: center;
     justify-content: center;
