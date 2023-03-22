@@ -4,7 +4,7 @@
 }
 .full-container {
   margin: auto;
-  background-image: url("../img/backgroundnew.svg");
+  background-image: url("../img/backgroundnew.png");
   /*background-repeat: repeat;*/
   background-size: cover;
 }

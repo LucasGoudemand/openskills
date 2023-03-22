@@ -4,7 +4,7 @@
 }
 .full-container {
   margin: auto;
-  background-image: url("../img/backgroundnew.svg");
+  background-image: url("../img/backgroundnew.png");
   /*background-repeat: repeat;*/
   background-size: cover;
 }
@@ -47,7 +47,7 @@
 }
 /* MAIN CONTAINERMAIN CONTAINERMAIN CONTAINERMAIN CONTAINERMAIN CONTAINERMAIN CONTAINERMAIN CONTAINERMAIN CONTAINER*/
 .main-container {
-  background-image: url("../img/backgroundnew.svg");
+  background-image: url("../img/backgroundnew.png");
   /*background-repeat: repeat;*/
   background-size: cover;
 }

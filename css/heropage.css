@@ -4,7 +4,7 @@
 }
 .full-container {
   margin: auto;
-  background-image: url("../img/backgroundnew.svg");
+  background-image: url("../img/backgroundnew.png");
   /*background-repeat: repeat;*/
   background-size: cover;
 }
@@ -54,7 +54,7 @@
 }
 /* HERO PAGE HERO PAGE HERO PAGE HERO PAGE HERO PAGE HERO PAGE HERO PAGE HERO PAGE HERO PAGE HERO PAGE HERO PAGE HERO PAGE HERO PAGE */
 .main-container {
-  background-image: url("../img/backgroundnew.svg");
+  background-image: url("../img/backgroundnew.png");
   /*background-repeat: repeat;*/
   background-size: cover;
   background-position: bottom 50px;
