@@ -235,6 +235,10 @@
 .marquee-rtl {
   display: inline-block; /* important */
   white-space: nowrap; /* important */
+  -ms-animation: defilement-rtl 60s infinite linear;
+  -o-animation: defilement-rtl 60s infinite linear;
+  -moz-animation: defilement-rtl 60s infinite linear;
+  -webkit-animation: defilement-rtl 60s infinite linear;
   animation: defilement-rtl 60s infinite linear; /* défilement */
   cursor: pointer;
 }
@@ -279,9 +283,11 @@ strong.green {
 .a4-content-container:hover {
   box-shadow: 0 5px 35px 0px rgb(237, 209, 26);
   transform: scale(1.05);
+  -webkit-transform: scale(1.05);
 }
 .a4-content-container:active {
   transform: scale(0.95) rotateZ(1.7deg);
+  -webkit-transform: scale(0.95) rotateZ(1.7deg);
 }
 .a4-content-container {
   display: flex;
@@ -299,6 +305,7 @@ strong.green {
   -webkit-backdrop-filter: blur(5.2px);
   border: 1px solid rgba(255, 255, 255, 0.78);
   transition: 1s;
+  -webkit-transition: 1s;
 }
 .text-content img {
   width: 25px;
@@ -307,12 +314,15 @@ strong.green {
 }
 .bubble-first-content {
   transform: translateX(100%);
+  -webkit-transform: translateX(100%);
   opacity: 0;
   transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+  -webkit-transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
 }
 
 .bubble-first-content.active {
   transform: translateX(0%);
+  -webkit-transform: translateX(0%);
   opacity: 1;
 }
 .first-content {
@@ -365,12 +375,15 @@ strong.green {
 }
 .bubble-third-content {
   transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
   opacity: 0;
   transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+  -webkit-transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
 }
 
 .bubble-third-content.active {
   transform: translateX(0%);
+  -webkit-transform: translateX(0%);
   opacity: 1;
 }
 .third-content {
@@ -446,12 +459,15 @@ strong.green {
 }
 .bubble-fifth-content {
   transform: translateX(100%);
+  -webkit-transform: translateX(100%);
   opacity: 0;
   transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+  -webkit-transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
 }
 
 .bubble-fifth-content.active {
   transform: translateX(0%);
+  -webkit-transform: translateX(0%);
   opacity: 1;
 }
 .sixth-content {
@@ -484,11 +500,14 @@ strong.green {
 }
 .bubble-sixth-content {
   transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
   opacity: 0;
   transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+  -webkit-transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
 }
 .bubble-sixth-content.active {
   transform: translateX(0%);
+  -webkit-transform: translateX(0%);
   opacity: 1;
 }
 .seventh-content {
