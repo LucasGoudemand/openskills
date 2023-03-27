@@ -169,13 +169,12 @@
   height: 30px;
   margin: 10px;
 }
-.second-container p {
-  font-size: 14px;
+
+.first-paragraph {
+  text-align: center;
+  line-height: 25px;
 }
-.bold-text {
-  font-weight: 700;
-  font-size: 15px;
-}
+
 .bold-title-offre {
   font-weight: bolder;
 }
