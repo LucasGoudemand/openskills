@@ -393,11 +393,15 @@
   .vertical-one {
     display: none;
   }
+  .small-one {
+    margin-left: 40px;
+  }
   .third-container {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
   }
   .third-container-txt-sophie {
     margin-left: 0px;

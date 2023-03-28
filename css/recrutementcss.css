@@ -476,6 +476,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 0px;
   }
   .text-content-b6bis {
     display: flex;
