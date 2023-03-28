@@ -154,9 +154,11 @@
   padding-bottom: 50px;
   text-align: center;
 }
+
 .text-content-b6 {
   padding-bottom: 50px;
   display: flex;
+  margin-left: 100px;
 }
 .text-content-b6bis {
   padding-bottom: 50px;
