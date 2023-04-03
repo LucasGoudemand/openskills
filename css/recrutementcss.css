@@ -203,7 +203,6 @@
 }
 .sophie-stars-b6bis {
   width: 200px;
-  height: 200px;
   margin-left: 30px;
 }
 .text-content-b7 {
@@ -447,6 +446,7 @@
   .first-content img {
     margin-right: 10px;
     margin-top: 5px;
+    padding-bottom: 30px;
   }
   .ebookpage-href img {
     margin-left: 0px;
@@ -477,6 +477,9 @@
     flex-direction: column;
     align-items: center;
     margin-left: 0px;
+  }
+  .text-content-b6-h2 {
+    padding-bottom: 0px;
   }
   .text-content-b6bis {
     display: flex;

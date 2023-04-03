@@ -726,6 +726,9 @@ strong.green {
   .bubble-first-content {
     width: 200px;
   }
+  .bubble-first-content p {
+    border-radius: 20px 0px 20px 20px;
+  }
   .social-proof-text {
     text-align: center;
   }
@@ -769,7 +772,7 @@ strong.green {
   }
   .fifth-content-img {
     width: 150px;
-    height: 140px;
+    height: 150px;
     margin-top: 100px;
   }
   .bubble-fifth-content {
@@ -804,6 +807,7 @@ strong.green {
   }
   .text-content {
     text-align: center;
+    margin-top: 50px;
   }
   .text-content li {
     list-style-type: none;
@@ -817,6 +821,10 @@ strong.green {
     padding-left: 10px;
     padding-right: 10px;
   }
+  .block-slide.active {
+    justify-content: center;
+    align-items: center;
+  }
   .quotte-avis {
     margin-bottom: 20px;
   }
@@ -824,7 +832,7 @@ strong.green {
     flex-wrap: wrap;
   }
   .block-slide img {
-    width: 100%;
+    margin-left: 0px;
   }
   .bubble-eigth-content p {
     font-size: 21px;

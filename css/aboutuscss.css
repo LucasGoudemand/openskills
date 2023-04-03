@@ -156,11 +156,7 @@
   align-items: center;
 }
 /* MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT  MAIN CONTENT */
-.main-container {
-  background-image: url("../img/backgroundnew.png");
-  /*background-repeat: repeat;*/
-  background-size: cover;
-}
+
 .button-lead {
   background-size: 200% auto;
   margin: 10px;
