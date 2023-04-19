@@ -169,7 +169,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
+  padding-bottom: 50px;
 }
 .form-container p {
   border-radius: 10px 10px 10px 10px;
@@ -217,11 +217,33 @@ input[type="date"] {
 input[type="submit"] {
   background-size: 200% auto;
   margin: 10px;
-  margin-top: 20px;
   padding: 15px 45px;
   color: white;
-  border-radius: 20px;
+  border-radius: 15px;
   border-width: 0px;
+  box-shadow: 2px 2px 1px grey;
+  background-image: linear-gradient(
+    to right,
+    #08acd4 0%,
+    #ffdc5d 51%,
+    #08acd4 100%
+  );
+  display:none;
+}
+input[type="submit"]:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.button-calendly {
+  background-size: 200% auto;
+  margin: 10px;
+  padding: 15px 45px;
+  color: white;
+  border-radius: 15px;
+  border-width: 0px;
+  box-shadow: 2px 2px 1px grey;
   background-image: linear-gradient(
     to right,
     #08acd4 0%,
@@ -229,7 +251,7 @@ input[type="submit"] {
     #08acd4 100%
   );
 }
-input[type="submit"]:hover {
+.button-calendly:hover {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
