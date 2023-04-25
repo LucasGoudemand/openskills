@@ -236,6 +236,10 @@ input[type="submit"]:hover {
   text-decoration: none;
   transition: 0.5s;
 }
+.flex-class {
+  display: flex;
+  flex-direction: column;
+}
 /* FOOTER CONTAINER FOOTER CONTAINER FOOTER CONTAINER FOOTER CONTAINER FOOTER CONTAINER FOOTER CONTAINER FOOTER CONTAINER FOOTER CONTAINER*/
 .footer-container {
   display: flex;
@@ -329,5 +333,8 @@ input[type="submit"]:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .form-container p {
+    font-size: 11px;
   }
 }
