@@ -180,6 +180,7 @@
   justify-content: center;
   align-items: center;
   box-shadow: 7px 10px 1px #08acd4;
+  width: 100%;
 }
 form {
   display: flex;
@@ -193,7 +194,7 @@ label {
 input[type="text"] {
   border-width: 0px;
   border-color: #f0faeb;
-  width: 100px;
+  width: 200px;
   height: 25px;
 }
 input[type="email"] {
@@ -217,11 +218,11 @@ input[type="date"] {
 input[type="submit"] {
   background-size: 200% auto;
   margin: 10px;
-  margin-top: 20px;
   padding: 15px 45px;
   color: white;
-  border-radius: 20px;
+  border-radius: 15px;
   border-width: 0px;
+  box-shadow: 2px 2px 1px grey;
   background-image: linear-gradient(
     to right,
     #08acd4 0%,

@@ -78,15 +78,33 @@
                 </section>
                 <section>
                     <div class="third-content">
-                        <h2>Vous souhaitez en savoir plus sur nos formations et découvrir notre catalogue ? <button
-                                data-tf-popup="forGZkjG" data-tf-opacity="100" data-tf-size="100"
-                                data-tf-iframe-props="title=Ebook FORMATION" data-tf-transitive-search-params
-                                data-tf-medium="snippet"
-                                style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#22cce6;color:#fff;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">Par
-                                ici
-                            </button>
-                            <script src="//embed.typeform.com/next/embed.js"></script>
+                        <h2>Vous souhaitez en savoir plus sur nos formations et découvrir notre catalogue ?
                         </h2>
+                        <div class="form-container">
+
+                            <form method="post" action="mailebook-formation.php">
+                                <p>
+                                    <label for="email">Votre adresse EMAIL:</label>
+                                    <input type="email" name="email" id="email" placeholder="exemple@domaine.com"
+                                        required>
+                                </p>
+                                <p>
+                                    <label for="prenom">Votre prénom :</label>
+                                    <input type="text" name="prenom" id="prenom" placeholder="Ex. : Sophie" size="30"
+                                        maxlength="25" required>
+                                    <label for="nom">Votre nom :</label>
+                                    <input type="text" name="nom" id="nom" placeholder="Ex. : Dupont" required>
+                                </p>
+                                <p>
+                                    <label for="telephone">Votre N° de téléphone :</label>
+                                    <input type="tel" name="telephone" id="telephone" placeholder="+33" required>
+                                </p>
+
+                                <input type="submit" name="submit" id="submit" value="TELECHARGER">
+
+                            </form>
+
+                        </div>
 
                     </div>
                 </section>

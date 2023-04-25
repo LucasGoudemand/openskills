@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/leadformcss.css">
+    <link rel="stylesheet" href="./css/candidatcss.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <title>Concrétisez votre projet</title>
@@ -46,41 +46,9 @@
                 <section>
                     <h1 class="titleh1-leadform">Concrétisez votre recherche</h1>
                     <p class="p-leadform">Laissez-vous guider et nous revenons vers vous sous 72H maximum.</p>
-
-
-                    <div class="description-container">
-
-                        <div data-tf-widget="yZDegQJs" data-tf-opacity="100"
-                            data-tf-iframe-props="title=OPENSKILLSRH CANDIDAT" data-tf-transitive-search-params
-                            data-tf-medium="snippet" style="width:100%;height:500px;"></div>
-                        <!--
-                        <div class="candidat-container">
-                            <img class="candidat-img" src="./img/candidat.png">
-                            <h3>Je suis candidat</h3>
-                            <p>Vous cherchez un job ?</p>
-                            <ul>
-                                <li>Accés aux offres d'emplois<br>de nos partenaires</li>
-                                <li>Coaching personnalisé</li>
-                                <li>Suivi personnalisé</li>
-                                <li>Aide pour les entretiens</li>
-                            </ul>
-                        </div>
-                        <div class="professionnel-container">
-                            <img class="professionnel-img" src="./img/professionnel.png">
-                            <h3>Je suis professionnel</h3>
-                            <p>Vous souhaitez booster vos RH ?</p>
-                            <ul>
-                                <li>Recrutement</li>
-                                <li>Coachings</li>
-                                <li>Accompagnement RH</li>
-                                <li>Formations</li>
-                            </ul>
-                        </div>
-                         -->
-                    </div>
-                    <!--
                     <div class="form-container">
-                        <form method="get" action="">
+
+                        <form method="post" action="mailcandidat.php" enctype="multipart/form-data">
                             <p>
                                 <label for="email">Votre adresse EMAIL:</label>
                                 <input type="email" name="email" id="email" placeholder="exemple@domaine.com" required>
@@ -89,6 +57,7 @@
                                 <label for="prenom">Votre prénom :</label>
                                 <input type="text" name="prenom" id="prenom" placeholder="Ex. : Sophie" size="30"
                                     maxlength="25" required>
+
                                 <label for="nom">Votre nom :</label>
                                 <input type="text" name="nom" id="nom" placeholder="Ex. : Dupont" required>
                             </p>
@@ -97,17 +66,44 @@
                                 <input type="tel" name="telephone" id="telephone" placeholder="+33" required>
                             </p>
                             <p>
-                                <label for="date">Choisisez la date de votre rendez-vous :</label>
-                                <input type="date" name="date" id="date">
+                                <label for="contrat">Quel type de poste cherchez-vous :</label>
+                                <select id="contrat" name="contrat">
+                                    <option value="CDI">CDI</option>
+                                    <option value="CDD">CDD</option>
+                                    <option value="TEMPSPARTIEL">TEMPS PARTIEL</option>
+                                    <option value="ALTERNANCE">ALTERNANCE</option>
+                                    <option value="STAGE">STAGE</option>
+                                </select>
                             </p>
-
-                            <input type="submit" name="submit" id="submit" value="Prendre rendez-vous">
-
+                            <p>
+                                <label for="poste">Quel intitulé de poste cherchez-vous ?</label>
+                                <input type="text" name="poste" id="poste" placeholder="Ex. : Boulanger">
+                            </p>
+                            <p>
+                                <label for="region">Dans quelle région ?</label>
+                                <input type="text" name="region" id="region" placeholder="Ex. : Aquitaine">
+                            </p>
+                            <p>
+                                <label for="critere">Quel type de poste cherchez-vous :</label>
+                                <select id="critere" name="critere">
+                                    <option value="REMUNERATION">Rémuneration</option>
+                                    <option value="CONDITIONS">Conditions de travail</option>
+                                    <option value="VALEURS">Valeurs</option>
+                                    <option value="ADN">Adn de l'entreprise</option>
+                                    <option value="SECTEUR">Secteur</option>
+                                </select>
+                            </p>
+                            <p>
+                                <label for="cv">Deposer votre CV au format PDF:</label>
+                                <input type="file" id="cv" name="cv" accept=".pdf">
+                            </p>
+                            <input type="submit" name="submit" id="submit" value="Envoyer">
                         </form>
-                    </div>-->
+                    </div>
                 </section>
             </div>
         </main>
+
         <footer>
             <div class="footer-container">
                 <div class="footer-col1">

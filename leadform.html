@@ -48,11 +48,11 @@
                     <p class="p-leadform">Laissez-vous guider et prenez rendez-vous avec nos experts.</p>
 
 
-                    <div class="description-container">
+                    <!--<div class="description-container">
                         <div data-tf-widget="W85gIlIW" data-tf-opacity="100" data-tf-iframe-props="title=OPENSKILLSRH"
                             data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:800px;">
-                        </div>
-                        <!--
+                        </div> 
+                        
                         <div class="candidat-container">
                             <img class="candidat-img" src="./img/candidat.png">
                             <h3>Je suis candidat</h3>
@@ -75,11 +75,12 @@
                                 <li>Formations</li>
                             </ul>
                         </div>
-                         -->
-                    </div>
-                    <!--
+                         
+                    </div>-->
+
                     <div class="form-container">
-                        <form method="get" action="">
+
+                        <form method="post" action="mail.php">
                             <p>
                                 <label for="email">Votre adresse EMAIL:</label>
                                 <input type="email" name="email" id="email" placeholder="exemple@domaine.com" required>
@@ -96,14 +97,42 @@
                                 <input type="tel" name="telephone" id="telephone" placeholder="+33" required>
                             </p>
                             <p>
-                                <label for="date">Choisisez la date de votre rendez-vous :</label>
-                                <input type="date" name="date" id="date">
+                                <textarea name="message" rows="10" cols="50"
+                                    id="message">Quel est le motif de votre prise de contact ?</textarea>
                             </p>
 
-                            <input type="submit" name="submit" id="submit" value="Prendre rendez-vous">
+                            <input type="submit" name="submit" id="submit" value="Confirmer mon rendez-vous">
 
                         </form>
-                    </div>-->
+
+
+                        <!-- Début de widget de lien Calendly -->
+                        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"
+                            async></script>
+                        <script>
+
+                            function onClickButton() {
+
+                                // Récupère la valeur du champ "prenom"
+                                var prenom = document.getElementById("prenom").value;
+                                // Récupère la valeur du champ "email"
+                                var email = document.getElementById("email").value;
+                                // Construit l'URL de Calendly avec les valeurs des champs "prenom" et "email"
+                                var url = "https://calendly.com/mss-7?name=" + prenom + "&email=" + email;
+                                //Apparition du bouton submit
+                                document.getElementById("submit").style.display = "block";
+                                document.getElementById("button-calendly").style.display = "none";
+                                // Fonction appelée lors du clic sur le bouton "Reservez votre premier date !"
+                                Calendly.initPopupWidget({ url: url });
+
+                                return false;
+                            }
+                        </script>
+                        <button class="button-calendly" id="button-calendly" onclick="onClickButton()">Reservez
+                            votre premier date !</button>
+                        <!-- Fin de widget en ligne Calendly -->
+                    </div>
                 </section>
             </div>
         </main>

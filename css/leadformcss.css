@@ -228,7 +228,7 @@ input[type="submit"] {
     #ffdc5d 51%,
     #08acd4 100%
   );
-  display:none;
+  display: none;
 }
 input[type="submit"]:hover {
   background-position: right center; /* change the direction of the change here */

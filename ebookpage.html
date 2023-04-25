@@ -71,14 +71,31 @@
                     <div class="download-container">
                         <h1>Découvrez notre <strong class="blue">expertise</strong> et laissez-vous guider.</h1>
 
-                        <button data-tf-popup="QSb3vZqY" data-tf-opacity="100" data-tf-size="100"
-                            data-tf-iframe-props="title=Ebook OSR LIVRE" data-tf-transitive-search-params
-                            data-tf-medium="snippet" class="button-lead"> TELECHARGER<i
-                                class="fa-solid fa-check"></i></button>
+                        <div class="form-container">
 
-                        <script src="//embed.typeform.com/next/embed.js"></script>
+                            <form method="post" action="mailebook.php">
+                                <p>
+                                    <label for="email">Votre adresse EMAIL:</label>
+                                    <input type="email" name="email" id="email" placeholder="exemple@domaine.com"
+                                        required>
+                                </p>
+                                <p>
+                                    <label for="prenom">Votre prénom :</label>
+                                    <input type="text" name="prenom" id="prenom" placeholder="Ex. : Sophie" size="30"
+                                        maxlength="25" required>
+                                    <label for="nom">Votre nom :</label>
+                                    <input type="text" name="nom" id="nom" placeholder="Ex. : Dupont" required>
+                                </p>
+                                <p>
+                                    <label for="telephone">Votre N° de téléphone :</label>
+                                    <input type="tel" name="telephone" id="telephone" placeholder="+33" required>
+                                </p>
 
-                    </div>
+                                <input type="submit" name="submit" id="submit" value="TELECHARGER">
+
+                            </form>
+
+                        </div>
                 </section>
             </div>
         </main>
