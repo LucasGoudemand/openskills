@@ -10,14 +10,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
    
     $telephone = $_POST['telephone'];
     
-    $qui = $_POST['qui'];
+   
 
     // construire le corps du message
     $body = "Email : $email\n";
     $body .= "Prénom : $prenom\n";
     $body .= "Nom : $nom\n";
     $body .= "Téléphone : $telephone\n\n";
-    $body .= "La personne est un : $qui\n\n";
+    
 
     // envoyer l'email
     $to = 'goudemand.lucas@gmail.com, mss@open-skills-rh.fr';
@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     mail($to, $subject, $body, $headers);
     
      // afficher le message de confirmation et le lien vers le site web
-     header('Location: https://open-skills-rh.fr/download/CATALOGUE.pdf');
+     //header('Location: https://open-skills-rh.fr/download/CATALOGUE.pdf');
     exit;
     
 }
